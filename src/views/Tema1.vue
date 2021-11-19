@@ -397,37 +397,67 @@
       br
       |Algunos de las tendencias del diseño son: 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg--4-claro")
-      .row(titulo="")
+      .row(titulo="Art Nouveau").p-3
+        .col-md-8.mb-4.mb-md-0
+          p Finales del siglo XIX, principios del siglo XX
+            br
+            br
+            | Este movimiento se caracteriza por tener grandes artistas en su lista. Uno de sus mayores expositores es Alfons Mucha, quien revolucionó con <b>su obra, la cual representaba la belleza y erotismo de la mujer, con gran delicadeza y sofisticación</b>. Mucha salta a la fama con la invención de un cartel para la obra Gismonda, protagonizada por la actriz Sarah Bernhardt, actriz de cine y teatro, muy importante en la movida parisina. Sarah fue la musa de varios de sus trabajos.
+            br
+            br
+            |Este movimiento nace bajo las formas poéticas de la naturaleza, el manejo enriquecido de la línea, las curvas, fuerza y movimiento que pueden aportar, adaptándose a la vida moderna. Al igual que muchos otros movimientos, el Art Nouveau imprime su sello en todas las áreas artísticas de la época.
+            br
+            br
+          h4 Caracteristicas
+          ol.lista-ol--cuadro--color
+            li 
+              .lista-ol--cuadro__vineta
+                span 1
+              | Énfasis en elementos de la naturaleza, un estilo joven y moderno.
+            li 
+              .lista-ol--cuadro__vineta
+                span 2
+              | Manejo de la línea y las formas naturales.
+            li 
+              .lista-ol--cuadro__vineta
+                span 3
+              | Es el primer movimiento que trata de no parecerse a otro.
+            li 
+              .lista-ol--cuadro__vineta
+                span 4
+              | Se utilizaron gran cantidad de materiales, sobre todo en la arquitectura y el diseño industrial.
+            li 
+              .lista-ol--cuadro__vineta
+                span 5
+              | Énfasis rico en el color.
+        .col-md-4
+          figure
+            img(src='@/assets/curso/48.jpg', alt='Texto que describa la imagen')
+      .row(titulo="").p-3
         .col-md-8.mb-4.mb-md-0
           p 
         .col-md-4
           figure
             img(src='@/assets/curso/48.jpg', alt='Texto que describa la imagen')
-      .row(titulo="")
+      .row(titulo="").p-3
         .col-md-8.mb-4.mb-md-0
           p 
         .col-md-4
           figure
             img(src='@/assets/curso/48.jpg', alt='Texto que describa la imagen')
-      .row(titulo="")
+      .row(titulo="").p-3
         .col-md-8.mb-4.mb-md-0
           p 
         .col-md-4
           figure
             img(src='@/assets/curso/48.jpg', alt='Texto que describa la imagen')
-      .row(titulo="")
+      .row(titulo="").p-3
         .col-md-8.mb-4.mb-md-0
           p 
         .col-md-4
           figure
             img(src='@/assets/curso/48.jpg', alt='Texto que describa la imagen')
-      .row(titulo="")
-        .col-md-8.mb-4.mb-md-0
-          p 
-        .col-md-4
-          figure
-            img(src='@/assets/curso/48.jpg', alt='Texto que describa la imagen')
-      .row(titulo="")
+      .row(titulo="").p-3
         .col-md-8.mb-4.mb-md-0
           p 
         .col-md-4
