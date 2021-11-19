@@ -1,0 +1,39 @@
+.imagen-adornos-flotantes
+  position: relative
+  &__img
+    img
+      position: absolute
+      z-index: 99
+      animation: float 3s ease-in-out infinite alternate
+
+@keyframes float
+  0%
+    transform: translateY(10px)
+
+  100%
+    transform: translateY(0px)
+.tarjeta-h
+  .tarjeta
+    min-height: 476px !important
+  .horizontal-scroll
+    align-items: stretch !important
+.fa-chevron-left:before
+  content: url(../assets/curso/izquierda.svg) !important
+  width: 10px !important
+.fa-chevron-right:before
+  content: url(../assets/curso/derecha.svg) !important
+  width: 2px !important
+.slyder-f__btn
+  z-index: 99
+  width: 5% !important
+.texto-adorno
+  width: fit-content
+  position: relative
+  &:before
+    content: url(../assets/curso/13.svg)
+    position: absolute
+    top: -40%
+    right: -10%
+    width: 46px
+    
+    
