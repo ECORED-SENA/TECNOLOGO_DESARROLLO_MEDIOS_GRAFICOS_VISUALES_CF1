@@ -150,6 +150,7 @@ export default {
     left: 30%
     z-index: 99
   &_6
+    filter: blur(2px)
     animation: float1 2.7s ease-in-out infinite alternate
     position: absolute
     width: 167px
@@ -164,6 +165,8 @@ export default {
     right: 3%
     z-index: 99
   &_8
+    filter: blur(1px)
+
     animation: float1 3s ease-in-out infinite alternate
     position: absolute
     width: 50px
