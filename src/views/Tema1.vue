@@ -433,36 +433,414 @@
         .col-md-4
           figure
             img(src='@/assets/curso/48.jpg', alt='Texto que describa la imagen')
-      .row(titulo="").p-3
+      .row(titulo="Constructivismo").p-3
         .col-md-8.mb-4.mb-md-0
-          p 
+          p (1914) Rusia
+            br
+            | El Constructivismo nace en Rusia, en 1914. En el año 1917, Malevich empleó el término 
+            br
+            |construction art (en español, arte para construcción), haciendo referencia al trabajo de Ródchenko, 
+            br
+            |bajo una connotación negativa.
+            br
+            br
+            |Una de las obras más icónicas de este periodo es realizada por Vladimir Tatlin, pintor y escultor, al 
+            br
+            |cual se asocia con el nacimiento del Constructivismo. Diseño del Monumento a la Tercera 
+            br
+            |Internacional, o también llamada Torre de Tatlin, que es un edificio habitable, más alto que la propia 
+            br
+            |Torre Eiffel, el cual no se edificó.
+            br
+            br
+            |Entre sus principales exponentes, además de Vladimir Tatlin, están: Aleksandr Ródchenko, 
+            br
+            |Aleksandra Ekster, János Máttis-Teutsch, Lajos Kassák, El Lissitzky, entre otros. 
+          h4 Caracteristicas
+          ol.lista-ol--cuadro--color
+            li 
+              .lista-ol--cuadro__vineta
+                span 1
+              | Se basa en la abstracción geométrica y funcional.
+            li 
+              .lista-ol--cuadro__vineta
+                span 2
+              | Sus fuentes de inspiración son el cubismo y el dadaísmo.
+            li 
+              .lista-ol--cuadro__vineta
+                span 3
+              | Se utilizan colores como rojo, naranja, azul, blanco, negro y amarillo.
+            li 
+              .lista-ol--cuadro__vineta
+                span 4
+              | Rechaza el arte burgués de la época. 
+            li 
+              .lista-ol--cuadro__vineta
+                span 5
+              | Se asocia a la producción industrial.
+          p Se utilizan tipografías en negritas en los carteles, sobre todo en la propaganda política.
+        .col-md-4
+          figure
+            img(src='@/assets/curso/49.jpg', alt='Texto que describa la imagen')
+      .row(titulo="Bauhaus").p-3
+        .col-md-8.mb-4.mb-md-0
+          p Casa de la construcción estatal, 1919, Alemania.
+
+            |Fundada en 1919 por Walter Gropius, en Weimar, Alemania. La primera fase (1919-1923) fue idealista y romántica; la segunda (1923-1925), mucho más racionalista; y en la tercera (1925-1929), alcanzó su mayor reconocimiento, coincidiendo con su traslado de la ciudad de Weimar a Dessau (Díez y Parra, 2015).
+            br
+            br
+            |Su característica principal de diseño es la sustracción de ornamentos como los utilizados en el Art Nouveau, de formas limpias y geométricas, colores primarios que buscan la funcionalidad con la menor cantidad de elementos. Esta escuela es cerrada por el Partido Nacional Socialista, bajo el mandato de Hitler.
+            br
+            br
+            |Sus principales exponentes son: Walter Gropius, Paul Josef Albers, Lyonel Feininger, Alfred Arndt, Herbert Bayer, Ludwig Hilberseimer, Marianne Brandt, Johannes Itten, Marcel Breuer, Wassily Kandinsky.
+          h4 Caracteristicas
+          ol.lista-ol--cuadro--color
+            li 
+              .lista-ol--cuadro__vineta
+                span 1
+              | Su principal función es la innovación en el pensamiento, dejando atrás los convencionalismos del momento, la forma sigue a la función.
+            li 
+              .lista-ol--cuadro__vineta
+                span 2
+              | La Bauhaus hizo aportes importantes al diseño gráfico e industrial que se utilizan hasta el día de hoy, basados en las tendencias modernistas del uso y relación entre el diseño, materiales funcionales y minimalistas.
+            li 
+              .lista-ol--cuadro__vineta
+                span 3
+              | El diseño tipográfico se enriquece con el aporte de nuevos estilos, que apuestan por la funcionalidad más que por la estética.
+            li 
+              .lista-ol--cuadro__vineta
+                span 4
+              |  Los colores predominantes son los primarios: amarillo, azul y rojo, en contraste con formas básicas como el triángulo, el círculo y el cuadrado.
+            li 
+              .lista-ol--cuadro__vineta
+                span 5
+              |  Las formas geométricas y abstractas se utilizan para simplificar los elementos.
+        .col-md-4
+          figure
+            img(src='@/assets/curso/50.jpg', alt='Texto que describa la imagen')
+      .row(titulo="Art Déco").p-3
+        .col-md-8.mb-4.mb-md-0
+          p Europa 1920 – 1939
+            br
+            br
+            |A la par que en Alemania se desarrolla la escuela de la Bauhaus, Francia y otros países adoptan un movimiento diferente, llamado Art Déco, movimiento modernista, que se sitúa con una visión influenciada por diversas estéticas, como la del constructivismo ruso, del cual toma las líneas duras y la solidez de las formas.
+            br
+            br
+            |Materiales como aluminio, acero inoxidable, piel de animales, maderas y otros son los mayormente utilizados. En arquitectura, uno de los mejores ejemplos de este estilo es la cúpula del edificio Chrysler, en la ciudad de Nueva York, construido entre 1928 y 1930; en este, se observan el uso de las líneas, la repetición, y formas características del movimiento, los diversos materiales enfocados hacia un concepto industrializado.
+            br
+            br
+            |Esta corriente busca un nuevo optimismo después de vivir la Primera Guerra Mundial, sus diseños imprimen un toque elegante y suntuoso, encaminado hacia un futuro esperanzador. Los colores son vibrantes e irradian mucho brillo, esto como influencia del Fauvismo, las tipografías realizadas en el Art Déco, eran revestidas en muchos casos por una capa de oro, lo cual imprimía un toque de suntuosidad.
+          h4 Caracteristicas
+          ol.lista-ol--cuadro--color
+            li 
+              .lista-ol--cuadro__vineta
+                span 1
+              | Es un movimiento de posguerra, basado en el lujo y la suntuosidad, que desea dejar atrás las carencias de la época. 
+            li 
+              .lista-ol--cuadro__vineta
+                span 2
+              | Las piezas de este movimiento son puramente decorativas, en la mayoría de los casos.
+            li 
+              .lista-ol--cuadro__vineta
+                span 3
+              | Gira alrededor del progreso, el urbanismo, la ciudad y la maquinaria. 
+            li 
+              .lista-ol--cuadro__vineta
+                span 4
+              | Uso continuo de colores, brillos, líneas y formas aerodinámicas. 
+        .col-md-4
+          figure
+            img(src='@/assets/curso/51.jpg', alt='Texto que describa la imagen')
+      .row(titulo="El diseño gráfico en los años 30").p-3
+        .col-md-8.mb-4.mb-md-0
+          p La década de los años 30 se caracterizó por dejar atrás los excesos del Art Déco, esto, sumado a la gran depresión de 1928, generó un cambio en el diseño y las artes. Con formas restringidas tomadas del Art Decó y colores tenues, el cartel se vuelve sombrío. 
+            br
+            br
+            |Tschichold, tipógrafo alemán, hace grandes aportes a la tipografía, el arte y la arquitectura, con la aplicación de conceptos constructivistas. En su libro La nueva tipografía, da a conocer tipografías asimétricas y conceptos del diseño asimétrico, que poco se utilizaba en ese momento. 
+            br
+            br
+            |Los avances tecnológicos y el diseño van a la par, esto se refleja en los trabajos realizados, que buscan dar un falso movimiento a las piezas. Se destacan en esta década: Herbert Matter, Piet Zwart, y Lester Beall.
+          h4 Caracteristicas
+          ol.lista-ol--cuadro--color
+            li 
+              .lista-ol--cuadro__vineta
+                span 1
+              | Diseños sobrios.
+            li 
+              .lista-ol--cuadro__vineta
+                span 2
+              | Colores tenues, poco cálidos. 
+            li 
+              .lista-ol--cuadro__vineta
+                span 3
+              | Formas no simétricas.
+        .col-md-4
+          figure
+            img(src='@/assets/curso/52.jpg', alt='Texto que describa la imagen')
+      .row(titulo="El diseño durante la II Guerra Mundial (cartel bélico)").p-3
+        .col-md-8.mb-4.mb-md-0
+          p En 1939, comienza la Segunda Guerra Mundial, conflicto que durará hasta el año 1945, dividiendo al mundo entre el bloque occidental y el comunista.  La noción de la guerra y las revoluciones hace que el diseño sea un arma política, capaz de transmitir un mensaje claro y efectivo, ya que es utilizado por los gobiernos para impulsar sus ideologías, infundir miedo y como propaganda política.
+            br
+            br
+            |Se utilizan colores de gamas grisáceas y en otros colores primarios, sobre todo para exaltar al Gobierno y el servicio a la patria, al cual estaban destinados los hombres.
+            br
+            br
+            |En Estados Unidos, sobresale el trabajo de James Montgomery Flagg, del famoso cartel del tío Sam; J. Howard Miller, creador del cartel ¡Podemos hacerlo!, que se muestra en la imagen; y en Alemania, Joseph Goebbels, con un cartel icónico citando la victoria será nuestra, el cual muestra un soldado frente a la bandera del partido Nazi.
+          h4 Caracteristicas
+          ol.lista-ol--cuadro--color
+            li 
+              .lista-ol--cuadro__vineta
+                span 1
+              | Uso político.
+            li 
+              .lista-ol--cuadro__vineta
+                span 2
+              | Se utiliza la manipulación mediante el cartel.
+            li 
+              .lista-ol--cuadro__vineta
+                span 3
+              | Utilización de colores primarios y neutros. 
         .col-md-4
           figure
             img(src='@/assets/curso/48.jpg', alt='Texto que describa la imagen')
-      .row(titulo="").p-3
-        .col-md-8.mb-4.mb-md-0
-          p 
-        .col-md-4
-          figure
-            img(src='@/assets/curso/48.jpg', alt='Texto que describa la imagen')
-      .row(titulo="").p-3
-        .col-md-8.mb-4.mb-md-0
-          p 
-        .col-md-4
-          figure
-            img(src='@/assets/curso/48.jpg', alt='Texto que describa la imagen')
-      .row(titulo="").p-3
-        .col-md-8.mb-4.mb-md-0
-          p 
-        .col-md-4
-          figure
-            img(src='@/assets/curso/48.jpg', alt='Texto que describa la imagen')
-      .row(titulo="").p-3
-        .col-md-8.mb-4.mb-md-0
-          p 
-        .col-md-4
-          figure
-            img(src='@/assets/curso/48.jpg', alt='Texto que describa la imagen')
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.4 Diseño básico
+    .row.mb-5.justify-content-center.align-items-center
+      .col-lg-7(data-aos="fade-left")
+        p El diseño visual, base de la creación del diseño, es considerado hoy un eje fundamental de la vida cotidiana de los individuos, puesto que se vive en un mundo cada vez más globalizado, donde existe saturación por miles de imágenes que a diario se distribuyen a través de diversos medios. Es así como la comunicación se logra por medio del lenguaje escrito, verbal y visual, cada uno con un código particular, utilizados en diversos campos y ámbitos de la vida cotidiana. Para referirse al lenguaje visual, se puede decir entonces que es la capacidad de comunicación mediante imágenes, utilizadas como medio de expresión en todas sus formas y posibilidades, para dar a conocer sensaciones, pensamientos, emociones y sentimientos, que se pueden expresar en representaciones gráficas. 
+        .bg--4-claro.p-4.mb-3
+          p.mb-0 Según el diccionario etimológico (Etimologías de Chile, 2020), la palabra imagen proviene del latín “imago”, la cual significa retrato, copia o imitación. A pesar de esto, la imagen, a diferencia de la escritura o el lenguaje, suele tener un grado de dificultad en cuanto a su lectura, ya que cada individuo puede realizar su propia interpretación de la misma, lo cual no sucede con las palabras; por ejemplo, al decir perro, la asociación que generalmente se hace es con un animal de 4 patas, indiferente de su raza.
+        p No siempre una imagen vale más que mil palabras; por ejemplo, esta señal que se expone significa circulación prohibida, y es probable que pocos asocien la imagen a este concepto.
+      .col-lg-5(data-aos="fade-right")
+        .imagen-adornos-flotantes
+          img(src="@/assets/curso/53.jpg" alt="Adornos flotantes")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 10% ; top: ; bottom: 10% ; width: 90px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 15% ; right: ; top: ; bottom: 5% ; width: 60px ")
+    .tarjeta.bg--2-claro.p-4.mb-5.rounded-0.mt-5
+          .row.justify-content-around.align-items-center.position-relative
+            img.position-absolute.d-none.d-lg-block(src="@/assets/curso/54.svg" alt="Adornos flotantes" style="width: 117px ; left: 3% ; top: -80% ")
+            .col-4.col-sm-2.col-lg-1
+            .col-lg-10
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small.mb-0 Para  reforzar sus conceptos sobre este tema, se le invita a ver el video Fundamentos del diseño, que se encuentra en el material complementario.
+                .col-sm-auto
+                  a.boton.color-acento-contenido(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Enlace
+                    i.fas.fa-link
+    h3(data-aos="fade-right") Herramientas del lenguaje visual.
+    p.mb-5 El lenguaje visual se organiza a partir de dos tipos de herramientas:
+    h4(data-aos="fade-right") A. Herramienta de configuración: 
+    p.mb-5 Dentro de las herramientas de configuración, se pueden resaltar las siguientes: tamaño, forma, color, textura e iluminación; detállelas a continuación.
+    .row.mb-5
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false" style="height: 427px ")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              img(src="@/assets/curso/59.svg" alt="Adornos flotantes" style="width: 70px ").m-auto.mb-3
+              .text-center
+                h3 Tamaño
+                p  Hace referencia a la dimensión adecuada con la cual trabajar una imagen de acuerdo con los criterios requeridos, para conseguir los mejores resultados.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/55.jpg')})`}")
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false" style="height: 427px ")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              img(src="@/assets/curso/60.svg" alt="Adornos flotantes" style="width: 70px ").m-auto.mb-3
+              .text-center
+                h3 Forma
+                p  Todo aquello que nos rodea tiene una forma, se podría definir como el aspecto exterior de las cosas, que presentan un contorno, textura, tamaño y color. 
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/56.jpg')})`}")
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false" style="height: 427px ")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              img(src="@/assets/curso/61.svg" alt="Adornos flotantes" style="width: 70px ").m-auto.mb-3
+              .text-center
+                h3 Color
+                p  El lenguaje visual tiene como gran recurso la utilización del color, el cual puede aportar mucha fuerza, carácter e información que enriquece la imagen. Mediante el color, se pueden afianzar los conceptos frío, calor, primavera, invierno, entre otros. De igual manera, ofrece una gama ilimitada de posibilidades en su tratamiento. 
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/57.jpg')})`}")
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false" style="height: 427px ")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              img(src="@/assets/curso/62.svg" alt="Adornos flotantes" style="width: 70px ").m-auto.mb-3
+              .text-center
+                h3 Textura
+                p  Toda figura tiene una superficie, esta puede tener diferentes características, unas suaves, otras ásperas, arrugadas, lisas o abultadas. Existen la textura visual y la textura táctil.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/58.jpg')})`}")
+    h4(data-aos="fade-right") B. Herramientas de organización: 
+    p.mb-5 Dentro de estas, se encuentran la composición y la retórica visual. Es necesario conocer más sobre ellas, por lo tanto, observe lo siguiente:
+    .row.mb-5
+      .col-lg-6(data-aos="fade-right")
+        .tarjeta.bg--3-claro.p-5.h-100
+          img(src="@/assets/curso/63.svg" alt="Adornos flotantes" style="width: 70px ").mb-3
+          h5 La composición: 
+          p.mb-3 La composición de una imagen se hace ordenando las herramientas y elementos que integran la obra en pro de la intencionalidad y el mensaje a transmitir.
+          img(src="@/assets/curso/65.jpg" alt="Adornos flotantes" ).m-auto.mb-3 
+      .col-lg-6(data-aos="fade-right")
+        .tarjeta.bg--4-claro.p-5.h-100
+          img(src="@/assets/curso/64.svg" alt="Adornos flotantes" style="width: 70px ").mb-3
+          h5 La retórica visual:
+          p.mb-3 Reconecta los significados de los componentes del producto visual, para transmitir mensajes y sensaciones más allá del sentido literal.  Los tres componentes de la retórica visual son:
+          .bg-white.p-3
+            #carouselExampleIndicators.carousel.slide(data-bs-ride='carousel').px-5
+              .carousel-indicators
+                button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
+                button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
+                button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3')
+              .carousel-inner
+                .carousel-item.active
+                  .row.align-items-center
+                    .col-lg-3: img(src="@/assets/curso/66.svg")
+                    .col-lg-9
+                      h4 Metáfora:
+                      p Comparación implícita de dos términos a partir de la semejanza de sus significados, estableciendo una relación. Ejemplo, el sueño eterno, para referirse a la muerte.
+
+                .carousel-item
+                  .row.align-items-center
+                    .col-lg-3: img(src="@/assets/curso/67.svg")
+                    .col-lg-9
+                      h4 Alegoría:
+                      p Metáfora extendida o sucesión de metáforas para expresar algo diferente a lo dicho. Ejemplo: Ella gira dentro de mi cabeza.
+                .carousel-item
+                  .row.align-items-center
+                    .col-lg-3: img(src="@/assets/curso/68.svg")
+                    .col-lg-9
+                      h4 Metonimia:
+                      p Reemplazar el nombre de un elemento por otro con el que se relaciona o existe una relación de dependencia causa – efecto. Ejemplo: le hizo daño el sol, para referirse al calor del sol. 
+              button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
+                span.carousel-control-prev-icon(aria-hidden='true')
+                span.visually-hidden Previous
+              button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
+                span.carousel-control-next-icon(aria-hidden='true')
+                span.visually-hidden Next
+    h4(data-aos="fade-right") Gramática del lenguaje visual
+    p.mb-5 Así como el lenguaje escrito necesita de un abecedario, signos y símbolos para poder llegar a manifestar de forma asertiva un mensaje, el lenguaje visual también necesita de ciertos recursos gráficos para comunicar de manera correcta aquello que desea expresar, ordenando para ello los elementos que hacen parte de la comunicación gráfica, desde el punto y la línea. No obstante, no se puede negar que el proceso visual es una síntesis de conocimientos perceptivos que acompañan al individuo, por lo que su lectura, respecto a la imagen, es individual. <b>En resumen, la gramática visual ordena los elementos que hacen parte de sí misma, los procesos que lleva a cabo y las relaciones que se producen.</b>
+    .tarjeta.bg--2-claro.p-4.mb-5.rounded-0.mt-5
+          .row.justify-content-around.align-items-center.position-relative
+            img.position-absolute.d-none.d-lg-block(src="@/assets/curso/54.svg" alt="Adornos flotantes" style="width: 117px ; left: 3% ; top: -80% ")
+            .col-4.col-sm-2.col-lg-1
+            .col-lg-10
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small.mb-0 Para  reforzar sus conceptos sobre este tema, se le invita a ver el video <b>Conceptos de diseño: la forma, que se encuentra en el material complementario.</b> 
+                .col-sm-auto
+                  a.boton.color-acento-contenido(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Enlace
+                    i.fas.fa-link
+    h4(data-aos="fade-right") Forma, repetición, estructura, contraste y textura
+    p.mb-5 Cuando se habla de elementos del diseño, se dice que existen:
+    .row.mb-5
+      .col-lg-6(data-aos="fade-right")
+        .tarjeta.tarjetas-text
+          img(src="@/assets/curso/69.jpg" alt="Adornos flotantes" style="width: 100% ").mb-3
+          .tarjetas-text__contenido.p-5
+            h3 Elementos conceptuales
+            p Son aquellos elementos que, aunque no son visibles, están en la mente por asociación; por ejemplo, cuando dibuja un cubo por medio de líneas, implícitamente le da una tridimensionalidad que no es real, pero que se forma como reflejo de la imagen y la asociación.
+      .col-lg-6(data-aos="fade-left")
+        .tarjeta.tarjetas-text
+          img(src="@/assets/curso/70.jpg" alt="Adornos flotantes" style="width: 100% ").mb-3
+          .tarjetas-text__contenido.p-5
+            h3 Elementos visuales
+            p Hacen destacar las características de una imagen, como su color, textura, ancho y alto. Un concepto muy utilizado dentro del diseño es el módulo, elemento tomado como unidad de medida utilizada dentro de una composición gráfica, la cual suele repetirse sistemáticamente. 
+    p.mb-5 Se le invita a revisar la siguiente presentación, que le ayudará a profundizar sobre el tema:
+    .tarjeta.tarjeta--azul.p-4.mb-5
+      SlyderA.p-5
+        .row
+          .col-md-7.mb-4.mb-md-0
+            h4 Forma
+            p Los elementos conceptuales no son visibles, así el punto, la línea o el plano, cuando son visibles, pasan a ser una forma. Un punto sobre el papel, por pequeño que sea, debe tener una figura, un tamaño, un color y una textura si se pretende que sea visto. También debe señalarse lo mismo de una línea o de un plano. En un diseño bidimensional, el volumen es imaginario.
+              br
+              br
+              |Dentro de la forma encontramos:
+          .col-md-5
+            figure
+              img(src='@/assets/curso/71.jpg', alt='Texto que describa la imagen')
+        .row
+          .col-md-7.mb-4.mb-md-0
+            h4 Repetición
+            p La repetición tiene como función unificar el diseño, se da como resultado de la repetición continua de un mismo elemento dentro de un espacio, lo cual permite igualdad, ritmo y equilibrio a nivel visual.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/72.jpg', alt='Texto que describa la imagen')
+        .row
+          .col-md-7.mb-4.mb-md-0
+            h4 Estructura
+            p La estructura sugiere un orden y predefine las relaciones internas de las formas en un diseño, es decir la posición. Es posible haber creado un diseño sin haber pensado conscientemente en la estructura, pero la estructura está siempre presente cuando hay una organización (Wong, 1991). 
+          .col-md-5
+            figure
+              img(src='@/assets/curso/73.svg', alt='Texto que describa la imagen')
+        .row
+          .col-md-7.mb-4.mb-md-0
+            h4 Radiación
+            p Puede ser descrita como un caso especial de repetición. Se trata de los módulos repetidos o las subdivisiones estructurales que giran regularmente alrededor de un centro común, produciendo un efecto de radiación. La radiación es un fenómeno común en la naturaleza; por ejemplo, lanzar una piedra a un lago genera ondas concéntricas, provocando una gradación, serie ordenada gradualmente (Godoy, 2009b).
+          .col-md-5
+            figure
+              img(src='@/assets/curso/74.svg', alt='Texto que describa la imagen')
+        .row
+          .col-md-7.mb-4.mb-md-0
+            h4 Contraste
+            p El contraste ocurre siempre, aunque su presencia pueda no ser advertida. Se presenta el contraste cuando una forma está rodeada de un espacio blanco; cuando una línea recta se cruza con una curva; cuando una forma es mucho mayor que otra; cuando coexisten direcciones verticales y horizontales. El contraste es solo una clase de comparación, por la cual las diferencias se hacen claras.
+              br
+              br
+              | Dos formas pueden ser similares en algunos aspectos y diferentes en otros. Sus diferencias quedan enfatizadas cuando hay un contraste. Una forma puede no parecer grande si es vista de forma aislada, pero puede parecer gigantesca junto a formas diminutas.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/75.svg', alt='Texto que describa la imagen')
+        .row
+          .col-md-7.mb-4.mb-md-0
+            h4 Contraste
+            p La regularidad no produce necesariamente un buen diseño, aunque puede garantizar cierto grado de armonía. El mismo grupo de módulos, utilizados en una estructura de repetición, pueden derivar en un diseño opaco en las manos de un diseñador y en un diseño llamativo en manos de otro. El debido uso del contraste en los elementos de relación puede explicar esa diferencia.  El contraste puede ser derivado de elementos como la figura, el tamaño, el color, la textura, la dirección de los elementos, la posición, el espacio y la gravedad (Godoy, 2009a). 
+          .col-md-5
+            figure
+              img(src='@/assets/curso/76.svg', alt='Texto que describa la imagen')
+        .row
+          .col-md-7.mb-4.mb-md-0
+            h4 Textura
+            p De acuerdo con Wong (1991), la textura se refiere a las características de una superficie de una figura. Toda figura tiene una superficie y toda superficie debe tener ciertas características, que pueden ser descritas como suave, rugosa, lisa o decorada, opaca o brillante, blanda o dura. Aunque, generalmente, se supone que una superficie plana y pintada no tiene textura alguna, en realidad, la capa de pintura es ya una textura; como, también, la textura del material sobre el que fue creada la figura. La textura apropiada añade riqueza a un diseño. 
+              br
+              br
+              |La textura puede ser clasificada en dos importantes categorías: textura visual y textura táctil.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/77.jpg', alt='Texto que describa la imagen')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -531,5 +909,35 @@ export default {
       transition: opacity 0.3s ease-in-out
       opacity: 0
       &:hover
+        opacity: 1
+.carousel-control-prev, .carousel-control-next
+  background-color: transparent !important
+  justify-content: start !important
+  padding: 0 !important
+
+.carousel-control-prev-icon
+  background-image: url(../assets/curso/prev.svg) !important
+  width: 20px !important
+.carousel-control-next-icon
+  background-image: url(../assets/curso/next.svg) !important
+  width: 20px !important
+.carousel-indicators
+  display: none
+.tarjetas-text
+  position: relative
+  overflow: hidden
+  &__contenido
+    transition: bottom 0.3s ease-in-out
+    border-radius: 10px
+    position: absolute
+    background-color: #F6F6F6 !important
+    bottom: -28%
+    p
+      transition: opacity 0.3s ease-in-out
+      opacity: 0
+  &:hover
+    .tarjetas-text__contenido
+      bottom: 0
+      p
         opacity: 1
 </style>
