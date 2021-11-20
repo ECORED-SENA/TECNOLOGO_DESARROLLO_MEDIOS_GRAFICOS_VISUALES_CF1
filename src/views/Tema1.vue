@@ -714,6 +714,7 @@
                     .col-lg-9
                       h4 Metonimia:
                       p Reemplazar el nombre de un elemento por otro con el que se relaciona o existe una relación de dependencia causa – efecto. Ejemplo: le hizo daño el sol, para referirse al calor del sol. 
+              .slyder-1
               button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
                 span.carousel-control-prev-icon(aria-hidden='true')
                 span.visually-hidden Previous
@@ -759,6 +760,17 @@
               br
               br
               |Dentro de la forma encontramos:
+            .row.justify-content-center
+              .col-auto(@mouseover="mostrarIndicador = false")
+                a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                  span.fw-bold.text-white La forma como punto
+                  .indicador--click(v-if="mostrarIndicador")
+              .col-auto
+                a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
+                  span.fw-bold.text-white La forma como línea
+              .col-auto
+                a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
+                  span.fw-bold.text-white La forma como plano
           .col-md-5
             figure
               img(src='@/assets/curso/71.jpg', alt='Texto que describa la imagen')
@@ -807,9 +819,117 @@
               br
               br
               |La textura puede ser clasificada en dos importantes categorías: textura visual y textura táctil.
+            .row.justify-content-center
+              .col-auto(@mouseover="mostrarIndicador = false")
+                a.boton.color-acento-botones.indicador__container(@click="modal4 = true")
+                  span.fw-bold.text-white Textura visual
+                  .indicador--click(v-if="mostrarIndicador")
+              .col-auto
+                a.boton.color-acento-botones.indicador__container(@click="modal5 = true")
+                  span.fw-bold.text-white Textura táctil
           .col-md-5
             figure
               img(src='@/assets/curso/77.jpg', alt='Texto que describa la imagen')
+    h4(data-aos="fade-right") Composición, percepción y equilibrio visual
+    p.mb-5 En diseño, la composición es el ordenamiento y disposición de los distintos elementos dentro del espacio visual de manera ordenada, con el fin de transmitir un mensaje objetivo al público. El éxito de cualquier proyecto gráfico reside en la composición, que sea clara, concisa, sencilla y directa, esto posibilita una mejor lectura de esta.
+      br
+      br
+      |La composición consiste en jugar con los elementos, rotarlos, cambiarlos de posición, ubicarlos por grupos, por colores, etc.; observe más, a continuación, sobre este importante tema:
+    #carouselExampleIndicators2.carousel.slide(data-bs-ride='carousel2')
+      .carousel-indicators
+        button.active(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
+        button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='1' aria-label='Slide 2')
+        button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='2' aria-label='Slide 3')
+        button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='3' aria-label='Slide 4')
+      .carousel-inner
+        .carousel-item.active
+          div.position-relative
+            img(src='@/assets/curso/90.jpg', alt='Texto que describa la imagen')
+            .bg-white.position-absolute.p-3(style='bottom: 10%; left: 85px; max-width: 50%')
+              p Existen algunas reglas que pueden ser de gran ayuda a la hora de emprender cualquier proyecto:
+              ul.lista-ul--color
+                li 
+                  i.fas.fa-angle-right
+                  | Elementos ubicados a la derecha o en la parte de la margen inferior, tiene mayor fuerza a nivel visual.
+
+                li 
+                  i.fas.fa-angle-right
+                  | Formas largas y angulares amplían el campo de visión.
+
+                li 
+                  i.fas.fa-angle-right
+                  | Las formas simétricas, sencillas y regulares son más fáciles de recordar.
+
+                li 
+                  i.fas.fa-angle-right
+                  | Las imágenes de gran tamaño producen el efecto de fortaleza, lo contrario sucede con las imágenes pequeñas. 
+                li 
+                  i.fas.fa-angle-right
+                  | Los colores vibrantes tienen un mayor efecto visual.
+        .carousel-item
+          div.position-relative
+            img(src='@/assets/curso/91.jpg', alt='Texto que describa la imagen')
+            .bg-white.position-absolute.p-3(style='bottom: 10%; left: 85px; max-width: 50%')
+              p La percepción se define como la capacidad de construir, interpretar y hasta corregir un esquema de información recibido por medio de los órganos sensoriales. Suele estar condicionada a patrones o aprendizajes memorizados con anterioridad. En el caso de la percepción visual, es la capacidad de procesar e interpretar la información recibida por medio del ojo como órgano principal; se hace uso de ciertos principios de la percepción, basados en las leyes de la Gestalt, teoría de la psicología que permite estudiar los modos de cómo se percibe lo que vemos.
+        .carousel-item
+          div.position-relative
+            img(src='@/assets/curso/92.jpg', alt='Texto que describa la imagen')
+            .bg-white.position-absolute.p-3(style='bottom: 10%; left: 85px; max-width: 60%')
+              h5 Diseño bidimensional
+              p Un elemento bidimensional es aquel que representa su altura y anchura sin manifestar su profundidad, ya que se realiza en un espacio plano, el cual solo tiene estas 2 dimensiones. <b>Ejemplo de esto, un dibujo de un rectángulo en una hoja de papel</b>. 
+                br
+                br
+                |Es así como, al referirse al diseño bidimensional, se está hablando de aquel diseño que puede ser expresado por medio de dibujos, planos, ilustraciones, tipografías, fotografías, imágenes, etc. Se encuentra en diversas corrientes, como las artes visuales, el diseño gráfico, el arte, la pintura, el grafiti, entre otros. A diferencia del diseño tridimensional, sólo puede ser observado de manera frontal, un ejemplo claro de esto se da al mirar una revista, solo se aprecia lo que está frente a los ojos; situación contraria cuando se observa una escultura en un museo, tiene muchos puntos de vista. 
+                br
+                br
+                |En pocas palabras, “el diseño es la mejor expresión visual de la esencia de algo” (Wong,1991).
+        .carousel-item
+          div.position-relative
+            img(src='@/assets/curso/93.jpg', alt='Texto que describa la imagen')
+            .bg-white.position-absolute.p-3(style='bottom: 10%; left: 85px; max-width: 50%')
+              h5 Diseño tridimensional
+              p Un elemento tridimensional posee un volumen dado por altura, anchura y profundidad. La percepción de un elemento tridimensional no puede darse a primera vista, tiene que observarse desde diferentes ángulos, posiciones y distancias, para hacer una mejor lectura de este. Así, el diseño tridimensional presenta muchos retos adicionales al bidimensional, precisamente por todas las aristas de observación. El diseñador tiene que ser muy observador e imaginar el elemento en diversas posiciones y tamaños, teniendo gran importancia el volumen y la ubicación dentro de un espacio; para dicho propósito, se deben asimilar sus medidas de manera transversal, vertical y horizontal.
+      .slyder-2
+        button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide='prev')
+          span.carousel-control-prev-icon(aria-hidden='true')
+          span.visually-hidden Previous
+        button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide='next')
+          span.carousel-control-next-icon(aria-hidden='true')
+          span.visually-hidden Next
+    h3(data-aos="fade-right") Lenguaje publicitario: características.
+    .row.mb-5.justify-content-center.align-items-center
+      .col-lg-7(data-aos="fade-left")
+        p La publicidad es un fenómeno de la Era Industrial. El mundo ha cambiado a pasos agigantados, especialmente, en los últimos siglos. Después de la Primera y Segunda Revolución Industrial, crecen la oferta y la demanda de miles de productos, en la llamada <b>“sociedad de consumo”; la función principal de la publicidad es fomentar técnicas de consumo pertinentes y asertivas</b>, llegar a todas partes, a través de los diferentes medios de comunicación (radio, prensa, cine, televisión), medios de sentido unidireccional, que van directamente al emisor. 
+          br
+          br
+          |Un ejemplo representativo son las televentas, las 24 horas del día vendiendo. Más acorde con estos días, las aplicaciones móviles donde se puede comprar lo que se quiera, 365 días del año, sin cierre. 
+      .col-lg-5(data-aos="fade-right")
+        .imagen-adornos-flotantes
+          img(src="@/assets/curso/53.jpg" alt="Adornos flotantes")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 10% ; top: ; bottom: 10% ; width: 90px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 15% ; right: ; top: ; bottom: 5% ; width: 60px ")
+    p.mb-5 El proceso de lenguaje publicitario presenta una serie de características con respecto a los otros actos de comunicación, ya que el mensaje es escrito por varios emisores; sus características son: 
+    .row.mb-5
+      .col-lg-6(data-aos="fade-right")
+        .bg--4-claro.p-4.h-100
+          .d-flex.align-items-center
+            img(src='@/assets/curso/95.jpg' style='width: 191px').mx-3
+            ol.lista-ol--cuadro--color
+              li 
+                .lista-ol--cuadro__vineta.text-system.p-3.bg--1
+                  span.h2 1
+              p El canal de difusión es múltiple, ya que se desea llegar a la mayor cantidad de receptores posible, a través de medios como prensa, vallas publicitarias, pautas en la radio, Internet, revistas, rótulos, etc.
+      .col-lg-6(data-aos="fade-left")
+        .bg--4-claro.p-4.h-100
+          .d-flex.align-items-center
+            img(src='@/assets/curso/96.jpg' style='width: 191px').mx-3
+            ol.lista-ol--cuadro--color
+              li 
+                .lista-ol--cuadro__vineta.text-system.p-3.bg--1
+                  span.h2 2
+              p Debe cumplir con las siguientes características básicas, las cuales suelen ser muy efectivas (Lozano, s. f.).
+    BotonesC
 
 
 
@@ -832,7 +952,69 @@
 
 
 
+    //----------------------------------- MODALES -----------------------------------//
+    ModalA(:abrir-modal.sync="modal1")
+      .p-2
+        img.mb-3(src="@/assets/curso/78.svg" alt="Adornos flotantes" style="width: 55px ")
+        h5 La forma como punto:
+        p Una forma es reconocida como un punto porque es pequeña. El tamaño desde luego es relativo. Una forma puede parecer bastante grande cuando está contenida dentro de un marco pequeño, pero la misma forma puede parecer muy pequeña si se coloca dentro de un marco mucho más amplio.
+        img(src="@/assets/curso/79.svg" alt="Adornos flotantes" )
+        p Al ver el ejemplo, pareciera que los círculos tienen un tamaño diferente, aunque son iguales.
+    ModalA(:abrir-modal.sync="modal2")
+      .p-2
+        img.mb-3(src="@/assets/curso/78.svg" alt="Adornos flotantes" style="width: 55px ")
+        h5 La forma como línea: 
+        p Una forma es reconocida como una línea por dos razones:
+        ol.lista-ol--cuadro--color
+          li 
+            .lista-ol--cuadro__vineta.bg--2.text-system
+              span 1
+            | Su ancho es extremadamente reducido. 
+          li 
+            .lista-ol--cuadro__vineta.bg--2.text-system
+              span 2
+            | Su longitud es sobresaliente.
+        p Una línea, por lo general, transmite la sensación de delgadez. La delgadez, igual que el tamaño, es relativo.
+        img(src="@/assets/curso/80.svg" alt="Adornos flotantes" )
+    ModalA(:abrir-modal.sync="modal3")
+      .p-2
+        img.mb-3(src="@/assets/curso/78.svg" alt="Adornos flotantes" style="width: 55px ")
+        h5 La forma como plano: 
+        p Es una superficie bidimensional, todas las formas lisas que comúnmente no sean reconocidas como puntos o líneas son planos. Una forma plana es limitada por líneas conceptuales que constituyen los bordes de la forma. Las características de estas líneas conceptuales y sus interrelaciones determinan la figura de la forma plana (APA Diseño Gráfico, s. f.). Algunas de sus clasificaciones son:
+        .bg-white.d-flex.flex-wrap.p-3.justify-content-center.px-5
+          img.mb-3.mx-3(src="@/assets/curso/81.svg" alt="Adornos flotantes" style="width: 173px ")
+          img.mb-3.mx-3(src="@/assets/curso/82.svg" alt="Adornos flotantes" style="width: 173px ")
+          img.mb-3.mx-3(src="@/assets/curso/83.svg" alt="Adornos flotantes" style="width: 173px ")
+          img.mb-3.mx-3(src="@/assets/curso/84.svg" alt="Adornos flotantes" style="width: 173px ")
+    ModalA(:abrir-modal.sync="modal4")
+      .p-2
+        img.mb-3(src="@/assets/curso/85.svg" alt="Adornos flotantes" style="width: 55px ")
+        h5 Textura visual: 
+        p Es bidimensional, se puede apreciar a través de la vista, aunque pueda evocar también sensaciones táctiles. Se distinguen tres clases de textura visual:
+        .row
+          .col-lg-4
+            .tarjeta.bg-white.p-4.h-100
+              img(src="@/assets/curso/86.jpg" alt="Adornos flotantes" style="width: 100% ")
+              h5 Textura decorativa:
+              p Decora una superficie y queda subordinada a la figura. En otras palabras, la textura misma es solo un agregado que puede ser quitado sin afectar mucho las figuras.
+          .col-lg-4
+            .tarjeta.bg-white.p-4.h-100
+              img(src="@/assets/curso/87.jpg" alt="Adornos flotantes" style="width: 100% ")
+              h5 Textura espontánea:
+              p No decora una superficie, sino que es parte del proceso de creación visual. La figura y la textura no pueden ser separadas, porque las marcas de la textura en una superficie son al mismo tiempo las figuras. Las formas dibujadas a mano y las accidentales contienen frecuentemente una textura espontánea. 
+          .col-lg-4
+            .tarjeta.bg-white.p-4.h-100
+              img(src="@/assets/curso/88.jpg" alt="Adornos flotantes" style="width: 100% ")
+              h5 Textura mecánica: 
+              p Textura obtenida por medios mecánicos especiales y, en consecuencia, no está necesariamente subordinada a la figura. Un ejemplo es el granulado fotográfico o la retícula que se encuentra a menudo en los impresos. La textura mecánica puede encontrarse, asimismo, en los diseños creados por la tipografía y en los gráficos de computadoras. 
+    ModalA(:abrir-modal.sync="modal5")
+      .p-2
+        img.mb-3(src="@/assets/curso/85.svg" alt="Adornos flotantes" style="width: 55px ")
+        h5 Textura táctil
+        p Se percibe a través del tacto, generando una sensación que puede describirse como una superficie lisa o con relieve; la textura puede ser propia del material; modificada, cuando se ha agregado una textura adicional a la natural; y organizada, cuando se unen o sobreponen materiales generando una nueva textura
+        img(src="@/assets/curso/89.jpg" alt="Adornos flotantes" style="width: 100% ")
 
+    //----------------------------------- MODALES -----------------------------------//
 
 
 
@@ -848,14 +1030,23 @@
 
 <script>
 import BannerInterno from '../components/BannerInterno.vue'
+import BotonesC from '../components/BotonesC.vue'
 
 export default {
   name: 'Tema1',
   components: {
     BannerInterno,
+    BotonesC,
   },
   data: () => ({
     mostrarIndicador: true,
+    modal1: false,
+    modal2: false,
+    modal3: false,
+    modal4: false,
+    modal5: false,
+    modal6: false,
+    modal7: false,
     datosSlyder: [
       {
         titulo: 'Paleolítico inferior',
@@ -910,17 +1101,33 @@ export default {
       opacity: 0
       &:hover
         opacity: 1
-.carousel-control-prev, .carousel-control-next
-  background-color: transparent !important
-  justify-content: start !important
-  padding: 0 !important
+.slyder-1
+  .carousel-control-prev, .carousel-control-next
+    background-color: transparent !important
+    justify-content: start !important
+    padding: 0 !important
 
-.carousel-control-prev-icon
-  background-image: url(../assets/curso/prev.svg) !important
-  width: 20px !important
-.carousel-control-next-icon
-  background-image: url(../assets/curso/next.svg) !important
-  width: 20px !important
+  .carousel-control-prev-icon
+    background-image: url(../assets/curso/prev.svg) !important
+    width: 20px !important
+  .carousel-control-next-icon
+    background-image: url(../assets/curso/next.svg) !important
+    width: 20px !important
+.slyder-2
+  .carousel-control-prev, .carousel-control-next
+    background-color: $color-secundario !important
+    padding: 0 !important
+    width: 85px
+    opacity: 1
+
+  .carousel-control-prev-icon
+    background-image: url(../assets/curso/prev2.svg) !important
+    span
+      color: $color-sistema-texto
+  .carousel-control-next-icon
+    background-image: url(../assets/curso/next2.svg) !important
+    span
+      color: $color-sistema-texto
 .carousel-indicators
   display: none
 .tarjetas-text
@@ -940,4 +1147,6 @@ export default {
       bottom: 0
       p
         opacity: 1
+.modal-a__content
+  background-color: $color-acento-botones
 </style>
