@@ -24,116 +24,32 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Definición e historia del diseño gráfico',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: 'Arte vs. Diseño',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo: 'Historia del arte',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
+            titulo: 'Exponentes, movimientos y tendencias del diseño',
+            hash: 't_1_3',
           },
           {
-            icono: 'far fa-file-alt',
+            icono: 'Diseño básico',
             numero: '1.4',
             titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
+            hash: 't_1_4',
           },
         ],
       },
@@ -141,44 +57,26 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Teoría del color',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Definición y fundamentos',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
+            titulo: 'Teoría aditiva y sustractiva',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Motion + Presentador',
+            titulo: 'Psicología y armonías de color',
             hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
           },
         ],
       },
@@ -186,45 +84,20 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Bocetación ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            titulo: 'Definición y tipos',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
+            titulo: 'Técnicas, la bitácora y recursos gráficos ',
             hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
           },
         ],
       },
@@ -266,139 +139,210 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Antica-editions (s.f.). Par le paquebot L Atlantique [Figura]. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.antica-editions.com/fr/index.php?id_product=166&controller=product',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'APA Diseño gráfico. (s. f.). La forma y los elementos conceptuales del diseño. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.apadisenografico.com/la-forma-elemento-conceptual-del-diseno/',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'BM Imaginería Taller de Arte. (2013). Historia del Arte Universal Cap 01 [Video]. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=I7gIIby02aw&t=8s',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Cartwright, M. (2014). La piedra de Rosetta. World History Encyclopedia. ',
+      link: 'https://www.ancient.eu/trans/es/1-12408/la-piedra-de-rosetta/',
+    },
+    {
+      referencia:
+        'Castro, J. (2014). Urbanismo y arquitectura de Egipto. Slideshare. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://es.slideshare.net/jonathan823/urbanismo-y-arquitectura-de-egipto',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Díez, G y Parra, R. (2015). Mucho más sobre la Bauhaus. Issuu.',
+      link: 'https://issuu.com/gabrieladiez/docs/bauhause',
+    },
+    {
+      referencia: 'EcuRed (s. f.). Saul Bass. [Figura].',
+      link: 'https://www.ecured.cu/Saul_Bass',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Enciclopedia Libre Universal en Español. (2010). Arte del antiguo Egipto. ',
+      link: 'http://enciclopedia.us.es/index.php/Arte_del_Antiguo_Egipto',
+    },
+    {
+      referencia: 'Etimologías de Chile. (2020). Etimología de imagen.',
+      link: 'http://etimologias.dechile.net/?imagen',
+    },
+    {
+      referencia:
+        'GCFAprendeLibre. (2019). Fundamentos del diseño: elementos básicos | Conceptos básicos de diseño gráfico [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=7N2v0bpNFKA',
+    },
+    {
+      referencia:
+        'Godoy, J. (2009a). Cuadernos del diseño básico. Contraste. Universidad de Santander. ',
+      link: 'https://issuu.com/azulcero/docs/contraste/4',
+    },
+    {
+      referencia:
+        'Godoy, J. (2009b). Cuadernos del diseño básico. La radiación. Universidad de Santander. ',
+      link: 'https://issuu.com/azulcero/docs/la_radiacion/2',
+    },
+    {
+      referencia:
+        'Hurtado, M. (2019). Qué tipos de bocetos se utilizan en diseño gráfico. Foro Alfa. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://foroalfa.org/articulos/pdf/que-tipos-de-bocetos-se-utilizan-en-diseno-grafico.pdf',
+    },
+    {
+      referencia: 'Lexico. (s. f.). Color. Lexico.com.',
+      link: 'https://www.lexico.com/es/definicion/color',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Lozano, I (s. f.). Los 5 elementos clave para crear un mensaje efectivo. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://blog.locutora.org/los-5-elementos-clave-para-crear-un-mensaje-efectivo/',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Ruiz, L. (2019). El padre del diseño gráfico moderno, Paul Rand. Enfoque Gaussiano. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.enfoquegaussiano.com/el-padre-del-diseno-grafico-moderno-paul-rand/',
+    },
+    {
+      referencia: 'Uriarte, J. (2020). Paleolítico. Caracteristicas.co.',
+      link: 'https://www.caracteristicas.co/paleolitico/',
+    },
+    {
+      referencia:
+        'Whelan, B. (1994). La armonía en el color. Nuevas tendencias. Guía para la combinación creativa de colores. ',
+      link: '',
+    },
+    {
+      referencia: 'FinalCopy. ',
+      link:
+        'https://politecnicometro.edu.co/biblioteca/produccionydg/La%20Armon%C3%ADa%20en%20el%20Color%20-%20Nuevas%20Tendencias%20%28Rosario%20Salinas%29.pdf',
+    },
+    {
+      referencia: 'WikiArt. (s. f.). Cassandre.',
+      link: 'https://www.wikiart.org/es/cassandre,',
+    },
+    {
+      referencia: 'Wikipedia. (2021). Walter Gropius.',
+      link: 'https://es.wikipedia.org/wiki/Walter_Gropius',
+    },
+    {
+      referencia:
+        'Wong, W. (1991). Fundamentos del diseño bi- y tri-dimensional. Editorial Gustavo Gili. ',
+      link:
+        'https://centroculturalhaedo.edu.ar/cch/actualizacion_permanente/Fundamentos%20del%20Diseno%20Bidimensional%20y%20tridimensional,%20Wucius%20Wong.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Axial',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'término utilizado para hacer referencia a la simetría alrededor del eje.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Escorzo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'técnica que permite percibir una sensación de profundidad en una obra.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: '<i>Feedback</i>',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'término que en inglés que significa retroalimentación, y se entiende como la respuesta u opinión que da un interlocutor a partir de la información recibida por parte del emisor. ',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Gárgola',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'son figuras mitológicas, en forma de animales o humanos, utilizadas en iglesias y catedrales como objetos decorativos o también para drenajes de agua, un estilo artístico de la Edad Media, especialmente en el arte gótico. ',
     },
     {
-      termino: 'Moda',
+      termino: 'Helenista',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'persona instruida en la lengua, cultura y literatura griega.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Ortogonal',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'se emplea para hacer referencia a que está en ángulo recto, ángulo de 90º. ',
     },
     {
-      termino: 'DIseño',
+      termino: '<i>Polis</i>',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'hace referencia a las ciudades-estado en la Antigua Grecia, territorios independientes, gobernados de manera autónoma.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Rosetta',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        '“La piedra Rosetta es una estela incompleta de granodiorita gris y rosa que data del 196 a. C., que presenta un decreto sacerdotal sobre el rey Ptolomeo V de Egipto. El texto está dividido en tres versiones diferentes: jeroglíficos, escritura demótica y griego, cosa que ayudó inmensamente a descifrar por fin los jeroglíficos egipcios” (Cartwright, 2014).',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Simetría',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Según el diccionario de la Real Academia Española – RAE (s. f.), “es correspondencia exacta en forma, tamaño y posición de las partes de un todo”.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: '<i>Target</i>',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'término inglés que no forma parte del diccionario de la RAE, se emplea en al campo de la publicidad para designar al público objetivo o nicho de mercado al cual se destinará una campaña, producto o servicio. ',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Wong, W. (1991). Fundamentos del diseño bi- y tri-dimensional. Editorial Gustavo Gili. ',
+      tipo: 'PDF',
+      descarga: '/downloads/fundamentos.pdf',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'BM Imaginería Taller de Arte. (2013). Historia del Arte Universal Cap 01 [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=I7gIIby02aw&t=8s',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+        'GCFAprendeLibre. (2019). Fundamentos del diseño: elementos básicos | Conceptos básicos de diseño gráfico [Video]. YouTube. ',
       tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      link: 'https://www.youtube.com/watch?v=7N2v0bpNFKA',
+    },
+    {
+      texto:
+        'Juárez, A. (2020). Conceptos de diseño: LA FORMA – Fundamentos del diseño animado (Basados en Wucius',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=dstsb4-2fCc',
+    },
+    {
+      texto:
+        'GCFAprendeLibre. (2019). Teoría del color – Conceptos básicos del diseño gráfico [Video].',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=cGglJKvpCEs',
+    },
+    {
+      texto:
+        'Tinux V A. (2019). Teoría del color: aditivo, sustractivo y la ley de los complementarios [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=UwTicavr21s',
+    },
+    {
+      texto:
+        'Marco Creativo. (2016). Psicología del color ¿Qué transmiten los colores? [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=X8kbrAzV6BM',
     },
   ],
   creditos: {
@@ -416,6 +360,28 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Guillermo Eduardo González Tarazona',
+        cargo: 'Instructor',
+        centro:
+          ' Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Gloria Amparo López escudero',
+        cargo: 'Diseñadora y Evaluadora Instruccional ',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima ',
+      },
     ],
     desarrolloProducto: [
       {
@@ -430,14 +396,20 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Yuly Andrea Rey Quiñonez'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Camilo Andres Bolaño Rey',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Andres Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },

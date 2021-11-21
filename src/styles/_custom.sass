@@ -35,5 +35,23 @@
     top: -40%
     right: -10%
     width: 46px
+.tarjetas-text
+  position: relative
+  overflow: hidden
+  &__contenido
+    width: 100%
+    transition: bottom 0.3s ease-in-out
+    border-radius: 10px
+    position: absolute
+    background-color: #F6F6F6 !important
+    bottom: -28%
+    p
+      transition: opacity 0.3s ease-in-out
+      opacity: 0
+  &:hover
+    .tarjetas-text__contenido
+      bottom: 0
+      p
+        opacity: 1
     
     

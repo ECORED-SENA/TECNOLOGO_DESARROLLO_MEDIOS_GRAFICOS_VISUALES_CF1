@@ -36,7 +36,7 @@
                 .col.mb-3.mb-sm-0
                   p.text-small.mb-0 <b>¿Quiere conocer más acerca del uso de la teoría del color?</b> Si su respuesta es positiva, atienda la siguiente recomendación: explore el video <b>Uso de la teoría del color</b>, que explica algunos conceptos sobre la teoría del color y su uso, y lo encuentra disponible en el material complementario.
                 .col-sm-auto
-                  a.boton.color-acento-contenido(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-contenido(href='https://www.youtube.com/watch?v=cGglJKvpCEs' target='_blank')
                     span Enlace
                     i.fas.fa-link
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -99,10 +99,10 @@
             .col-lg-8
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-small.mb-0 Continuando con este aprendizaje, tenga en cuenta explorar el video <b>Teoría administrativa y sustractiva</b>, que explica con mayor profundidad ambas teorías, se encuentra disponible en el material complementario.
+                  p.text-small.mb-0 Continuando con este aprendizaje, tenga en cuenta explorar el video <b>Teoría aditiva y sustractiva</b>, que explica con mayor profundidad ambas teorías, se encuentra disponible en el material complementario.
                 .col-sm-auto
 
-                  a.boton.color-acento-contenido(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-contenido(href='https://www.youtube.com/watch?v=UwTicavr21s' target='_blank')
                     span Enlace
                     i.fas.fa-link
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -137,7 +137,7 @@
                 .col.mb-3.mb-sm-0
                   p.text-small.mb-0 Conozca más acerca de lo que transmiten o comunican los colores explorando el video <b>La psicología del color</b>, disponible en el material complementario.
                 .col-sm-auto
-                  a.boton.color-acento-contenido(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-contenido(href='https://www.youtube.com/watch?v=X8kbrAzV6BM' target='_blank')
                     span Enlace
                     i.fas.fa-link
     .tarjeta.bg-gray.p-4.p-md-5.mb-5
@@ -150,7 +150,7 @@
             h2 Características psicológicas del color
           p.mb-4 Para conocer más sobre estas características, descargue y revise muy atentamente el siguiente documento.
           
-          a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones(:href="obtenerLink('/downloads/psicologia.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
     h3(data-aos="fade-right") Armonía de color 

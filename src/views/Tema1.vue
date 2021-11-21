@@ -176,7 +176,7 @@
                 .col.mb-3.mb-sm-0
                   p.text-small.text-white.mb-0 A través del siguiente video, podrá revisar todo lo que compone esta parte de la historia para el diseño gráfico:
                 .col-sm-auto
-                  a.boton.color-acento-contenido(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-contenido(:href="obtenerLink('/downloads/fundamentos.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
       .col-lg-5(data-aos="fade-left")
@@ -387,7 +387,7 @@
                 .col.mb-3.mb-sm-0
                   p.text-small.mb-0 Para  reforzar sus conceptos en este tema, se le invita a ver el video <b>Cronología de la Historia del Arte que se encuentra en el material complementario.</b>
                 .col-sm-auto
-                  a.boton.color-acento-contenido(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-contenido(href='https://www.youtube.com/watch?v=I7gIIby02aw&t=8s' target='_blank')
                     span Enlace
                     i.fas.fa-link
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -626,7 +626,7 @@
                 .col.mb-3.mb-sm-0
                   p.text-small.mb-0 Para  reforzar sus conceptos sobre este tema, se le invita a ver el video Fundamentos del diseño, que se encuentra en el material complementario.
                 .col-sm-auto
-                  a.boton.color-acento-contenido(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-contenido(href='https://www.youtube.com/watch?v=7N2v0bpNFKA' target='_blank')
                     span Enlace
                     i.fas.fa-link
     h3(data-aos="fade-right") Herramientas del lenguaje visual.
@@ -732,7 +732,7 @@
                 .col.mb-3.mb-sm-0
                   p.text-small.mb-0 Para  reforzar sus conceptos sobre este tema, se le invita a ver el video <b>Conceptos de diseño: la forma, que se encuentra en el material complementario.</b> 
                 .col-sm-auto
-                  a.boton.color-acento-contenido(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-contenido(href='https://www.youtube.com/watch?v=cGglJKvpCEs' target='_blank')
                     span Enlace
                     i.fas.fa-link
     h4(data-aos="fade-right") Forma, repetición, estructura, contraste y textura
