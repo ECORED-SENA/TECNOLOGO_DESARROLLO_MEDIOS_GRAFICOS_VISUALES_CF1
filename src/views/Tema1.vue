@@ -929,8 +929,53 @@
                 .lista-ol--cuadro__vineta.text-system.p-3.bg--1
                   span.h2 2
               p Debe cumplir con las siguientes características básicas, las cuales suelen ser muy efectivas (Lozano, s. f.).
-    BotonesC
-
+    BotonesC.mb-5
+    h3(data-aos="fade-right") Estructura y funciones del lenguaje publicitario
+    p.mb-5 El lenguaje publicitario tiene la siguiente estructura: 
+    figure.mb-5
+      img(src='@/assets/curso/98.svg' alt='Estructura del lenguaje publicitario')
+    p.mb-5 Las funciones del lenguaje publicitario son:
+    .d-flex.flex-wrap.mb-5.justify-content-center
+      .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false" style="height: 350px; width: 235px").mx-1
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-3
+              img(src='@/assets/curso/99.svg' alt='Estructura del lenguaje publicitario' style='width: 123px').mb-3
+              h5 Función informativa:
+              p Permite dar una información por medio de la imagen. 
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/100.svg')})`}")
+      .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false" style="height: 350px; width: 235px").mx-1
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-3
+              img(src='@/assets/curso/99.svg' alt='Estructura del lenguaje publicitario' style='width: 123px').mb-3
+              h5 Función apelativa: 
+              p Recurre a ciertas herramientas para influir su decisión.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/100.svg')})`}")
+      .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false" style="height: 350px; width: 235px").mx-1
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-3
+              img(src='@/assets/curso/99.svg' alt='Estructura del lenguaje publicitario' style='width: 123px').mb-3
+              h5 Función referencial: 
+              p  Las imágenes utilizadas hacen referencia al producto.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/100.svg')})`}")
+      .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false" style="height: 350px; width: 235px").mx-1
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-3
+              img(src='@/assets/curso/99.svg' alt='Estructura del lenguaje publicitario' style='width: 123px').mb-3
+              h5 Función fática:
+              p  Procura iniciar y capturar la atención del consumidor.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/100.svg')})`}")
+      .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false" style="height: 350px; width: 235px").mx-1
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-3
+              img(src='@/assets/curso/99.svg' alt='Estructura del lenguaje publicitario' style='width: 123px').mb-3
+              h5 Función emotiva:
+              p Recurre a la evocación para provocar sentimientos y emociones. 
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/100.svg')})`}")
 
 
 

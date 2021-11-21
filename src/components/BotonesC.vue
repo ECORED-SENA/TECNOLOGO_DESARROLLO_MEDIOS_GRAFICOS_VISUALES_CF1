@@ -32,43 +32,39 @@ export default {
         left: '50%',
         top: '-100%',
         texto:
-          'El mensaje para difundir debe ser lo más claro posible, un anuncio es efectivo cuando el cliente entiende lo que se quiere transmitir.',
+          'El mensaje para difundir debe ser <b>lo más claro posible</b>, un anuncio es efectivo cuando el cliente entiende lo que se quiere transmitir.',
       },
       {
         pos_x: '20%',
         pos_y: '32%',
-        titulo: 'Principio de actualidad:',
         left: '0%',
         top: '-100%',
         texto:
-          'Evolucionar al ritmo de la tecnología y utilizar los medios disponibles en el momento actual para garantizar la preservación de los documentos en el futuro.',
+          'Todos los consumidores han sido víctimas de publicidad engañosa, por tal motivo, <b>la publicidad debe contar con un mensaje creíble</b>, que genere confianza.',
       },
       {
         pos_x: '62%',
         pos_y: '32%',
-        titulo: 'Principio de equivalencia:',
         left: '130%',
         top: '-100%',
         texto:
-          'Modificar, cuando sea necesario, la forma tecnológica sin alterar el valor evidencia de los documentos, como una medida para enfrentar la obsolescencia tecnológica y para garantizar el acceso a la información.',
+          'Cuando es <b>conciso el mensaje</b> (ideas claras en pocas palabras), el consumidor requiere menos esfuerzo, tiempo y capacidad para entender lo que se quiere transmitir, lo cual conlleva suprimir detalles irrelevantes.  ',
       },
       {
         pos_x: '28%',
         pos_y: '63%',
-        titulo: 'Principio de economía:',
-        left: '-200%',
+        left: '0',
         top: '-100%',
         texto:
-          'Aplicar procesos, procedimientos, métodos y técnicas de preservación viables, prácticas y apropiadas, para el contexto de los documentos, de tal modo que se asegure la sostenibilidad técnica y económica de la preservación digital.',
+          'Es aquel que transmite <b>la razón</b>, o razones, por la cual el consumidor debe adquirir un producto o servicio en particular, qué beneficios traería consigo. ',
       },
       {
         pos_x: '53.8%',
         pos_y: '63%',
-        titulo: 'Principio de normalización: ',
-        left: '350%',
+        left: '100%',
         top: '-100%',
         texto:
-          'Generar lineamientos y herramientas basados en normas, estándares y buenas prácticas, como apoyo a la gestión y preservación de los documentos digitales.  ',
+          'Es recurrente pensar en dar a conocer todas las virtudes y cualidades de un producto, sin embargo, cuando <b>se enfoca en una sola cualidad</b>, se hace que el consumidor se interese y no se sienta bombardeado con tanta información.',
       },
     ],
   }),
