@@ -20,9 +20,9 @@
     .imagen_flotante_1: img(src="@/assets/curso/float1.png")
     .imagen_flotante_2: img(src="@/assets/curso/float2.png")
     .imagen_flotante_3: img(src="@/assets/curso/float3.png")
-    .imagen_flotante_4: img(src="@/assets/curso/float3.png")
-    .imagen_flotante_5: img(src="@/assets/curso/float4.png")
-    .imagen_flotante_6: img(src="@/assets/curso/float5.png")
+    .imagen_flotante_4.d-none.d-xl-block: img(src="@/assets/curso/float3.png")
+    .imagen_flotante_5.d-none.d-xl-block: img(src="@/assets/curso/float4.png")
+    .imagen_flotante_6.d-none.d-xl-block: img(src="@/assets/curso/float5.png")
     .imagen_flotante_7: img(src="@/assets/curso/float2.png")
     .imagen_flotante_8: img(src="@/assets/curso/float1.png")
   
