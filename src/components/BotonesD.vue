@@ -65,7 +65,7 @@ export default {
         top: '20%',
         titulo: 'Luminosidad',
         texto:
-          'La luminosidad o brillo es la cantidad de luz emitida o reflejada por un objeto. Y en un color, sería su claridad u oscuridad. Un color al 100% de saturación tendrá su máxima pureza con un 100% de luminosidad, y con una luminosidad del 0% será negro absoluto.  Por el contrario, cualquier color al 0% de saturación corresponderá a un tono concreto de gris, que se convertirá blanco absoluto por un valor del 100% de luminosidad y negro absoluto por un valor de luminosidad del 0%.',
+          'La luminosidad o brillo es la cantidad de luz emitida o reflejada por un objeto. Y en un color, sería su claridad u oscuridad. Un color al 100 % de saturación tendrá su máxima pureza con un 100 % de luminosidad, y con una luminosidad del 0 % será negro absoluto.  Por el contrario, cualquier color al 0 % de saturación corresponderá a un tono concreto de gris, que se convertirá blanco absoluto por un valor del 100 % de luminosidad y negro absoluto por un valor de luminosidad del 0 %.',
       },
     ],
   }),
@@ -103,6 +103,8 @@ export default {
     cursor: pointer
     background-position: center
     transition: background-image 0.2s ease-in-out
+
+
   &__text
     background-color: #D1FBFF !important
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
@@ -119,6 +121,8 @@ export default {
       top: -10px
       left: 3%
       width: 91px
+    @media (max-width: 768px)
+      width: 300% !important
 
 @media (max-width: $bp-max-md)
   .btns__text

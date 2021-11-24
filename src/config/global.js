@@ -30,7 +30,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Arte vs. Diseño',
+            titulo: 'Arte vs. diseño',
             hash: 't_1_1',
           },
           {
@@ -48,7 +48,7 @@ export default {
           {
             icono: 'Diseño básico',
             numero: '1.4',
-            titulo: 'Listas',
+            titulo: 'Diseño básico',
             hash: 't_1_4',
           },
         ],
@@ -230,13 +230,8 @@ export default {
       link: '',
     },
     {
-      referencia: 'FinalCopy. ',
-      link:
-        'https://politecnicometro.edu.co/biblioteca/produccionydg/La%20Armon%C3%ADa%20en%20el%20Color%20-%20Nuevas%20Tendencias%20%28Rosario%20Salinas%29.pdf',
-    },
-    {
       referencia: 'WikiArt. (s. f.). Cassandre.',
-      link: 'https://www.wikiart.org/es/cassandre,',
+      link: 'https://www.wikiart.org/es/cassandre',
     },
     {
       referencia: 'Wikipedia. (2021). Walter Gropius.',
@@ -420,7 +415,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

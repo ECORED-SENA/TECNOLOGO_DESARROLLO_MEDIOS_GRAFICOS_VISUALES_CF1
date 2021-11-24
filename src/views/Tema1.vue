@@ -8,10 +8,10 @@
         span 1
       h1 Definición e historia del diseño gráfico
     p.mb-5 El diseño gráfico puede definirse como una disciplina que interactúa, por lo general, con muchas otras disciplinas en diversos ámbitos y que busca la solución a problemas de comunicación visual, para dar a conocer, exponer y publicitar diversos productos, bienes y servicios, por medio de diferentes piezas gráficas que pretenden transmitir un mensaje específico.
+    p.mb-5 A continuación, observe el video "Historia del diseño" para una mejor contextualización sobre la historia de diseño gráfico. 
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
     .row.mb-5
       .col-lg-7(data-aos="fade-right")
         p.mb-3 Es así como se produjeron numerosos inventos que transformaron la sociedad y, junto con otros avances técnicos, potenciaron la prensa como fenómeno de masas y clases sociales. Se crearon espacios de ocio, como clubes, teatros y salones de reunión, donde se necesitaron piezas gráficas y publicidad. La invención de estos medios de comunicación, sumada a inventos como el de Joseph Niepce, quien, en 1826, fijó una imagen en una cámara oscura, invento que posteriormente Louis Daguerre perfeccionó en los llamados daguerrotipos (primer procedimiento fotográfico), fueron el inicio de una época que revolucionaría a la humanidad.
@@ -48,7 +48,7 @@
       .row.mb-5.justify-content-between.g-0
         .col-lg-6
           h3.m-auto.text-center.mb-3 Arte
-          SlyderF.tarjeta-h(columnas=" col-xl-12")
+          SlyderF.tarjeta-h(columnas=" col-xxl-12" style='width: 400px; margin: 0 auto')
             .tarjeta.bg-white.p-4
               .row.justify-content-center.mb-3
                 .col-8
@@ -81,7 +81,7 @@
               p.text-center El uso de materiales es muy libre, se pueden utilizar a selección del autor.
         .col-lg-6
           h3.text-center.mb-3 Diseño
-          SlyderF.tarjeta-h(columnas=" col-xl-12")
+          SlyderF.tarjeta-h(columnas=" col-xxl-12" style='width: 400px; margin: 0 auto')
             .tarjeta.bg-white.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-8
@@ -91,7 +91,7 @@
               .row.justify-content-center.mb-3
                 .col-8
                   img(src='@/assets/curso/11.svg' alt='AvatarTop' style='width: 190px').m-auto
-              p.text-center El diseñador basa su trabajo en elementos consignados generalmente en un brief, el cual es un documento informativo donde se encuentran instrucciones específicas para llevar a cabo su labor. 
+              p.text-center El diseñador basa su trabajo en elementos consignados generalmente en un <i>brief</i>, el cual es un documento informativo donde se encuentran instrucciones específicas para llevar a cabo su labor. 
             .tarjeta.bg-white.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-8
@@ -111,11 +111,6 @@
               .row.justify-content-center.mb-3
                 .col-8
                   img(src='@/assets/curso/11.svg' alt='AvatarTop' style='width: 190px').m-auto
-              p.text-center Hay un público objetivo a quién va dirigido el mensaje, por eso se estudia muy bien al receptor.
-            .tarjeta.bg-white.p-4.h-100
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(src='@/assets/curso/11.svg' alt='AvatarTop' style='width: 190px').m-auto
               p.text-center Busca generar en la población un mensaje particular, implantar una idea o concepto, lo cual genera en el diseñador una responsabilidad tanto ética como moral.
             .tarjeta.bg-white.p-4.h-100
               .row.justify-content-center.mb-3
@@ -124,13 +119,13 @@
               p.text-center El diseñador está sujeto a la funcionalidad, utilidad y practicidad de los materiales que utiliza.
       .row.justify-content-center.mb-3.g-0
         .col-lg-4
-          .bg--4.p-4.text-center.h-100.d-flex.align-items-center
+          .bg--4.p-4.text-center.h-100.d-flex.align-items-center.linea-azul
             h5.text-center.mb-3 El arte y el diseño poseen varias orientaciones disciplinarias.  
         .col-lg-4
           .bg--4.p-4.text-center.h-100.d-flex.align-items-center
             h5.text-center.mb-3 En los dos, influye la creatividad, la capacidad para crear o inventar algo.
         .col-lg-4
-          .bg--4.p-4.text-center.h-100.d-flex.align-items-center
+          .bg--4.p-4.text-center.h-100.d-flex.align-items-center.linea-azul2
             h5.text-center.mb-3 Sus aportes perduran en el tiempo.
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Historia del arte
@@ -167,6 +162,7 @@
     .row.mb-5
       .col-lg-7(data-aos="fade-right")
         p Esta parte de la historia se caracteriza por varios avances que, al igual que en el periodo neolítico, son fundamentales en el desarrollo y trascender de la humanidad. Si bien es cierto que el hombre desde el paleolítico ya dejaba su huella en las cuevas de Altamira, la escritura no se había desarrollado hasta ese momento. El desarrollo de los pueblos y la necesidad de comunicarse hacen que se manifiesten otras formas de comunicación diferentes a la expresión oral. 
+        //todo! EL VIDEO DEBE DESARROLLARSE DESDE PRODUCCIÓN
         .tarjeta.color-acento-botones.p-4.mb-5.rounded-0.mt-5
           .row.justify-content-around.align-items-center.position-relative
             img.position-absolute.d-none.d-lg-block(src="@/assets/curso/21.svg" alt="Adornos flotantes" style="width: 75px ; left: 3% ; top: -80% ")
@@ -176,9 +172,9 @@
                 .col.mb-3.mb-sm-0
                   p.text-small.text-white.mb-0 A través del siguiente video, podrá revisar todo lo que compone esta parte de la historia para el diseño gráfico:
                 .col-sm-auto
-                  a.boton.color-acento-contenido(:href="obtenerLink('/downloads/fundamentos.pdf')" target="_blank")
+                  a.boton.color-acento-contenido.tb(:href="obtenerLink('/downloads/fundamentos.pdf')" target="_blank")
                     span Descargar
-                    i.fas.fa-file-download
+                    i.fas.fa-file-download.tb
       .col-lg-5(data-aos="fade-left")
         .imagen-adornos-flotantes
           img(src="@/assets/curso/20.jpg" alt="Adornos flotantes")
@@ -298,7 +294,7 @@
         p.ms-5 El auge de El Renacimiento fue entre 1490 y 1527, y en cuanto a la arquitectura, Filippo di Ser Brunellesco Lapi fue el más destacado, también fue escultor y orfebre. Otro destacado representante del Renacimiento fue Michelangelo Buonarroti, quien era arquitecto, escultor y pintor, caracterizado por su perfeccionismo en la escultura y en la pintura (realizó la obra excepcional de la bóveda de la Capilla Sixtina por imposición del Papa Julio II), elaboró esculturas muy importantes, como La Piedad y El David. Asimismo, <b>Leonardo Da Vinci fue considerado el último hombre de El Renacimiento</b>, fue un gran polímata (persona que se destaca en diferentes disciplinas), tuvo creaciones relacionadas con el helicóptero, el submarino, entre otras. Sus obras más representativas son La Gioconda y La Última Cena.
         .bg--1-claro.p-3.ps-5
           p.mb-0 <b>Retrato de Lisa Gherardini</b>, esposa de Francesco del Giocondo, obra conocida como La Gioconda o La Mona Lisa. Actualmente, expuesta en el Museo del Louvre en París.
-    h3(data-aos="fade-right") El Barroco
+    h4(data-aos="fade-right") El Barroco
     .row.mb-5.justify-content-center
       .col-lg-5(data-aos="fade-right")
         .imagen-adornos-flotantes
@@ -310,7 +306,7 @@
         p Expresaba una sensibilidad desengañada, crítica, compleja y pesimista. El término fue utilizado inicialmente para referirse a algo engañoso o recargado, en forma despectiva, pero desde el siglo XIX, el término se utilizó para referirse no sólo al periodo, sino a las manifestaciones artísticas que contradijeron los valores del clasicismo, mediante una negación simbólica y artística de lo clásico, por eso fue femenino, irracional y dionisíaco. El Barroco enfatizó lo cotidiano y efímero de la vida, lo cual produjo una vulgarización del imaginario religioso; consideró que lo nacional y religioso eran expresiones de poder político, por eso se elaboraron obras monumentales y recargadas, que propendían por hacer resaltar el poder dominante, pero mediante engaños y artificios.
     .row.mb-5
       .col-lg-8(data-aos="fade-right")
-        .bg--1-claro.p-4
+        .bg--1-claro.p-4.mb-4
           p.mb-0 La pintura fue una expresión artística de El Barroco. Se distinguen dos vertientes, una naturalista, cuyo estilo se basa en la observación de la naturaleza, y la otra es el clasicismo, que es opuesta a la anterior, con un estilo más realista y racional, predominando el dibujo sobre el color; vertientes caracterizadas por el realismo superficial, los colores ricos, y el contraste entre las luces y las sombras. Exponentes de este período son Rembrandt, Rubens, Velásquez, Poussin, Vermeer y Caravaggio, quien realizaba una minuciosa observación anatómica con el uso del claroscuro, lo que otorgaba dramatismo a su obra y que llegó a conocerse como tenebrismo. Caravaggio plasmó vívidos momentos y escenas relacionadas con luchas violentas, muerte o tortura.
       .col-lg-4(data-aos="fade-left"): img(src="@/assets/curso/39.jpg" alt="Adornos flotantes")
     .row.mb-5.justify-content-center.align-items-center
@@ -326,14 +322,12 @@
       h4.mb-0.me-3 Edad Contemporánea
     p.mb-5 Los avances tecnológicos que se aportaron en este época fueron de mucha trascendencia para la industria gráfica; los diferentes movimientos artísticos junto a sus representantes generaron la ruptura con la pintura tradicional, por lo que es importante que revise el siguiente video, pues le permitirá profundizar sobre el diseño gráfico que se marcó en esta época.
     .row.mb-5.justify-content-end.bg--2-claro.p-4.position-relative
-      img.d-xl-block.d-none(src="@/assets/curso/41.svg" alt="Adornos flotantes" style="width: 136px; position: absolute; top: -20%; left: 5%;")
+      img.d-xl-block.d-none(src="@/assets/curso/41.svg" alt="Adornos flotantes" style="width: 130px; position: absolute; top: -30%; left: 5%;")
       .col-xl-10
-        h4 Historia del diseño siglo XX
-        p.mb-0 A continuación, observe el video Historia del diseño siglo XX para mejor contextualización sobre esta historia en la edad contemporánea.
+        p.mb-0 A continuación, observe el video <b>Historia del diseño siglo XX</b> para mejor contextualización sobre esta historia en la edad contemporánea.
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-5(data-aos="fade-right")
         .imagen-adornos-flotantes
@@ -343,7 +337,7 @@
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 15% ; right: ; top: ; bottom: 5% ; width: 60px ")
       .col-lg-7(data-aos="fade-left")
         p Adicionalmente, es importante que sepa que el cubismo también se desarrolló en la escultura, con técnicas parecidas al collage del cubismo sintético, que integró señales y fragmentos de cosas reales. Se elaboró con materiales de desecho, compuestas de diversas piezas, con huecos y vacíos en la superficie. En la arquitectura, el cubismo no tuvo casi representación, se realizó sobre todo en Checoslovaquia, como en la Casa de la Virgen Negra de Praga.
-    h3(data-aos="fade-right") Impresionismo
+    h4(data-aos="fade-right") Impresionismo
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-5(data-aos="fade-right")
         .imagen-adornos-flotantes
@@ -355,9 +349,9 @@
         p Este movimiento artístico se desarrolló a partir de la segunda mitad del siglo XIX en Europa, especialmente en Normandía. Propendía por plasmar la luz con la impresión visual en un instante determinado, gracias a la evolución y creación de nuevos pigmentos, que generaron gran variedad de colores, y como, además, los óleos venían en tubos, eso impedía que se secaran cuando pintaban al aire libre. Los pintores usaron colores puros, dando origen a la ley del contraste cromático, ya que todo color es relativo a los colores que le rodean, y a la ley de los colores complementarios. Contrastaron la luz con la oscuridad, generando la ilusión de profundidad por medio del modelado de color, que consiste en que por medio del color se crea volumen, con una zona de luz, de media sombra y sombra más profunda, agregando blanco para la luz y negro para la sombra.
     .bg--4-claro.p-4(data-aos="zoom-in-up").mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-2: img(src="@/assets/curso/44.svg") 
+        .col-lg-2.d-none.d-xl-block: img(src="@/assets/curso/44.svg") 
         .col-lg-8: p.mb-0 Para los pintores impresionistas, el dibujo y la forma pasaban a un segundo plano, siendo el reto más importante plasmar la iluminación y el color sobre el cuerpo o el objeto. Por eso, muchas imágenes se ven como diluidas o mezcladas. Buscaron iluminación interior, exterior, iluminación natural filtrada o al aire libre, con los reflejos sobre el agua, o la luz del sol a través de las hojas de los árboles.  
-    h3(data-aos="fade-right") Neoclasicismo
+    h4(data-aos="fade-right") Neoclasicismo
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-5(data-aos="fade-right")
         .imagen-adornos-flotantes
@@ -385,9 +379,9 @@
             .col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-small.mb-0 Para  reforzar sus conceptos en este tema, se le invita a ver el video <b>Cronología de la Historia del Arte que se encuentra en el material complementario.</b>
+                  p.text-small.mb-0 Para  reforzar sus conceptos en este tema, se le invita a ver el video <b>Historia del Arte Universal</b> que se encuentra en el material complementario.
                 .col-sm-auto
-                  a.boton.color-acento-contenido(href='https://www.youtube.com/watch?v=I7gIIby02aw&t=8s' target='_blank')
+                  a.boton.color-acento-contenido.tb(href='https://www.youtube.com/watch?v=I7gIIby02aw&t=8s' target='_blank')
                     span Enlace
                     i.fas.fa-link
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -399,7 +393,7 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg--4-claro")
       .row(titulo="Art Nouveau").p-3
         .col-md-8.mb-4.mb-md-0
-          p Finales del siglo XIX, principios del siglo XX
+          p <b>Finales del siglo XIX, principios del siglo XX</b>
             br
             br
             | Este movimiento se caracteriza por tener grandes artistas en su lista. Uno de sus mayores expositores es Alfons Mucha, quien revolucionó con <b>su obra, la cual representaba la belleza y erotismo de la mujer, con gran delicadeza y sofisticación</b>. Mucha salta a la fama con la invención de un cartel para la obra Gismonda, protagonizada por la actriz Sarah Bernhardt, actriz de cine y teatro, muy importante en la movida parisina. Sarah fue la musa de varios de sus trabajos.
@@ -408,7 +402,7 @@
             |Este movimiento nace bajo las formas poéticas de la naturaleza, el manejo enriquecido de la línea, las curvas, fuerza y movimiento que pueden aportar, adaptándose a la vida moderna. Al igual que muchos otros movimientos, el Art Nouveau imprime su sello en todas las áreas artísticas de la época.
             br
             br
-          h4 Caracteristicas
+          h4 Características
           ol.lista-ol--cuadro--color
             li 
               .lista-ol--cuadro__vineta
@@ -435,11 +429,11 @@
             img(src='@/assets/curso/48.jpg', alt='Texto que describa la imagen')
       .row(titulo="Constructivismo").p-3
         .col-md-8.mb-4.mb-md-0
-          p (1914) Rusia
+          p <b>(1914) Rusia</b>
             br
             | El Constructivismo nace en Rusia, en 1914. En el año 1917, Malevich empleó el término 
             br
-            |construction art (en español, arte para construcción), haciendo referencia al trabajo de Ródchenko, 
+            |<b><i>construction</i></b> art (en español, arte para construcción), haciendo referencia al trabajo de Ródchenko, 
             br
             |bajo una connotación negativa.
             br
@@ -456,7 +450,7 @@
             |Entre sus principales exponentes, además de Vladimir Tatlin, están: Aleksandr Ródchenko, 
             br
             |Aleksandra Ekster, János Máttis-Teutsch, Lajos Kassák, El Lissitzky, entre otros. 
-          h4 Caracteristicas
+          h4 Características
           ol.lista-ol--cuadro--color
             li 
               .lista-ol--cuadro__vineta
@@ -484,7 +478,7 @@
             img(src='@/assets/curso/49.jpg', alt='Texto que describa la imagen')
       .row(titulo="Bauhaus").p-3
         .col-md-8.mb-4.mb-md-0
-          p Casa de la construcción estatal, 1919, Alemania.
+          p <b>Casa de la construcción estatal, 1919, Alemania.</b>
 
             |Fundada en 1919 por Walter Gropius, en Weimar, Alemania. La primera fase (1919-1923) fue idealista y romántica; la segunda (1923-1925), mucho más racionalista; y en la tercera (1925-1929), alcanzó su mayor reconocimiento, coincidiendo con su traslado de la ciudad de Weimar a Dessau (Díez y Parra, 2015).
             br
@@ -493,7 +487,7 @@
             br
             br
             |Sus principales exponentes son: Walter Gropius, Paul Josef Albers, Lyonel Feininger, Alfred Arndt, Herbert Bayer, Ludwig Hilberseimer, Marianne Brandt, Johannes Itten, Marcel Breuer, Wassily Kandinsky.
-          h4 Caracteristicas
+          h4 Características
           ol.lista-ol--cuadro--color
             li 
               .lista-ol--cuadro__vineta
@@ -520,7 +514,7 @@
             img(src='@/assets/curso/50.jpg', alt='Texto que describa la imagen')
       .row(titulo="Art Déco").p-3
         .col-md-8.mb-4.mb-md-0
-          p Europa 1920 – 1939
+          p <b>Europa 1920 – 1939</b>
             br
             br
             |A la par que en Alemania se desarrolla la escuela de la Bauhaus, Francia y otros países adoptan un movimiento diferente, llamado Art Déco, movimiento modernista, que se sitúa con una visión influenciada por diversas estéticas, como la del constructivismo ruso, del cual toma las líneas duras y la solidez de las formas.
@@ -530,7 +524,7 @@
             br
             br
             |Esta corriente busca un nuevo optimismo después de vivir la Primera Guerra Mundial, sus diseños imprimen un toque elegante y suntuoso, encaminado hacia un futuro esperanzador. Los colores son vibrantes e irradian mucho brillo, esto como influencia del Fauvismo, las tipografías realizadas en el Art Déco, eran revestidas en muchos casos por una capa de oro, lo cual imprimía un toque de suntuosidad.
-          h4 Caracteristicas
+          h4 Características
           ol.lista-ol--cuadro--color
             li 
               .lista-ol--cuadro__vineta
@@ -556,11 +550,11 @@
           p La década de los años 30 se caracterizó por dejar atrás los excesos del Art Déco, esto, sumado a la gran depresión de 1928, generó un cambio en el diseño y las artes. Con formas restringidas tomadas del Art Decó y colores tenues, el cartel se vuelve sombrío. 
             br
             br
-            |Tschichold, tipógrafo alemán, hace grandes aportes a la tipografía, el arte y la arquitectura, con la aplicación de conceptos constructivistas. En su libro La nueva tipografía, da a conocer tipografías asimétricas y conceptos del diseño asimétrico, que poco se utilizaba en ese momento. 
+            |Tschichold, tipógrafo alemán, hace grandes aportes a la tipografía, el arte y la arquitectura, con la aplicación de conceptos constructivistas. En su libro <b>La nueva tipografía</b>, da a conocer tipografías asimétricas y conceptos del diseño asimétrico, que poco se utilizaba en ese momento. 
             br
             br
             |Los avances tecnológicos y el diseño van a la par, esto se refleja en los trabajos realizados, que buscan dar un falso movimiento a las piezas. Se destacan en esta década: Herbert Matter, Piet Zwart, y Lester Beall.
-          h4 Caracteristicas
+          h4 Características
           ol.lista-ol--cuadro--color
             li 
               .lista-ol--cuadro__vineta
@@ -585,8 +579,8 @@
             |Se utilizan colores de gamas grisáceas y en otros colores primarios, sobre todo para exaltar al Gobierno y el servicio a la patria, al cual estaban destinados los hombres.
             br
             br
-            |En Estados Unidos, sobresale el trabajo de James Montgomery Flagg, del famoso cartel del tío Sam; J. Howard Miller, creador del cartel ¡Podemos hacerlo!, que se muestra en la imagen; y en Alemania, Joseph Goebbels, con un cartel icónico citando la victoria será nuestra, el cual muestra un soldado frente a la bandera del partido Nazi.
-          h4 Caracteristicas
+            |En Estados Unidos, sobresale el trabajo de James Montgomery Flagg, del famoso cartel del <b>tío Sam</b>; J. Howard Miller, creador del cartel ¡<b>Podemos hacerlo</b>!, que se muestra en la imagen; y en Alemania, Joseph Goebbels, con un cartel icónico citando <b>la victoria será nuestra</b>, el cual muestra un soldado frente a la bandera del partido Nazi.
+          h4 Características
           ol.lista-ol--cuadro--color
             li 
               .lista-ol--cuadro__vineta
@@ -609,7 +603,7 @@
       .col-lg-7(data-aos="fade-left")
         p El diseño visual, base de la creación del diseño, es considerado hoy un eje fundamental de la vida cotidiana de los individuos, puesto que se vive en un mundo cada vez más globalizado, donde existe saturación por miles de imágenes que a diario se distribuyen a través de diversos medios. Es así como la comunicación se logra por medio del lenguaje escrito, verbal y visual, cada uno con un código particular, utilizados en diversos campos y ámbitos de la vida cotidiana. Para referirse al lenguaje visual, se puede decir entonces que es la capacidad de comunicación mediante imágenes, utilizadas como medio de expresión en todas sus formas y posibilidades, para dar a conocer sensaciones, pensamientos, emociones y sentimientos, que se pueden expresar en representaciones gráficas. 
         .bg--4-claro.p-4.mb-3
-          p.mb-0 Según el diccionario etimológico (Etimologías de Chile, 2020), la palabra imagen proviene del latín “imago”, la cual significa retrato, copia o imitación. A pesar de esto, la imagen, a diferencia de la escritura o el lenguaje, suele tener un grado de dificultad en cuanto a su lectura, ya que cada individuo puede realizar su propia interpretación de la misma, lo cual no sucede con las palabras; por ejemplo, al decir perro, la asociación que generalmente se hace es con un animal de 4 patas, indiferente de su raza.
+          p.mb-0 Según el diccionario etimológico (Etimologías de Chile, 2020), la palabra imagen proviene del latín “<i>imago</i>”, la cual significa retrato, copia o imitación. A pesar de esto, la imagen, a diferencia de la escritura o el lenguaje, suele tener un grado de dificultad en cuanto a su lectura, ya que cada individuo puede realizar su propia interpretación de la misma, lo cual no sucede con las palabras; por ejemplo, al decir perro, la asociación que generalmente se hace es con un animal de 4 patas, indiferente de su raza.
         p No siempre una imagen vale más que mil palabras; por ejemplo, esta señal que se expone significa circulación prohibida, y es probable que pocos asocien la imagen a este concepto.
       .col-lg-5(data-aos="fade-right")
         .imagen-adornos-flotantes
@@ -624,13 +618,13 @@
             .col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-small.mb-0 Para  reforzar sus conceptos sobre este tema, se le invita a ver el video Fundamentos del diseño, que se encuentra en el material complementario.
+                  p.text-small.mb-0 Para  reforzar sus conceptos sobre este tema, se le invita a ver el video <b>Fundamentos del diseño</b>, que se encuentra en el material complementario.
                 .col-sm-auto
-                  a.boton.color-acento-contenido(href='https://www.youtube.com/watch?v=7N2v0bpNFKA' target='_blank')
+                  a.boton.color-acento-contenido.tb(href='https://www.youtube.com/watch?v=7N2v0bpNFKA' target='_blank')
                     span Enlace
                     i.fas.fa-link
-    h3(data-aos="fade-right") Herramientas del lenguaje visual.
-    p.mb-5 El lenguaje visual se organiza a partir de dos tipos de herramientas:
+    h3(data-aos="fade-right") Herramientas del lenguaje visual
+    p.mb-5 El lenguaje visual se organiza a partir de dos tipos de herramientas
     h4(data-aos="fade-right") A. Herramienta de configuración: 
     p.mb-5 Dentro de las herramientas de configuración, se pueden resaltar las siguientes: tamaño, forma, color, textura e iluminación; detállelas a continuación.
     .row.mb-5
@@ -721,7 +715,7 @@
               button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
                 span.carousel-control-next-icon(aria-hidden='true')
                 span.visually-hidden Next
-    h4(data-aos="fade-right") Gramática del lenguaje visual
+    h5(data-aos="fade-right") Gramática del lenguaje visual
     p.mb-5 Así como el lenguaje escrito necesita de un abecedario, signos y símbolos para poder llegar a manifestar de forma asertiva un mensaje, el lenguaje visual también necesita de ciertos recursos gráficos para comunicar de manera correcta aquello que desea expresar, ordenando para ello los elementos que hacen parte de la comunicación gráfica, desde el punto y la línea. No obstante, no se puede negar que el proceso visual es una síntesis de conocimientos perceptivos que acompañan al individuo, por lo que su lectura, respecto a la imagen, es individual. <b>En resumen, la gramática visual ordena los elementos que hacen parte de sí misma, los procesos que lleva a cabo y las relaciones que se producen.</b>
     .tarjeta.bg--2-claro.p-4.mb-5.rounded-0.mt-5
           .row.justify-content-around.align-items-center.position-relative
@@ -730,9 +724,9 @@
             .col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-small.mb-0 Para  reforzar sus conceptos sobre este tema, se le invita a ver el video <b>Conceptos de diseño: la forma, que se encuentra en el material complementario.</b> 
+                  p.text-small.mb-0 Para  reforzar sus conceptos sobre este tema, se le invita a ver el video <b>Conceptos de diseño: la forma</b>, que se encuentra en el material complementario.
                 .col-sm-auto
-                  a.boton.color-acento-contenido(href='https://www.youtube.com/watch?v=cGglJKvpCEs' target='_blank')
+                  a.boton.color-acento-contenido.tb(href='https://www.youtube.com/watch?v=dstsb4-2fCc' target='_blank')
                     span Enlace
                     i.fas.fa-link
     h4(data-aos="fade-right") Forma, repetición, estructura, contraste y textura
@@ -761,14 +755,14 @@
               br
               |Dentro de la forma encontramos:
             .row.justify-content-center
-              .col-auto(@mouseover="mostrarIndicador = false")
+              .col-auto(@mouseover="mostrarIndicador = false").mb-3
                 a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
                   span.fw-bold.text-white La forma como punto
                   .indicador--click(v-if="mostrarIndicador")
-              .col-auto
+              .col-auto.mb-3
                 a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
                   span.fw-bold.text-white La forma como línea
-              .col-auto
+              .col-auto.mb-3
                 a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
                   span.fw-bold.text-white La forma como plano
           .col-md-5
@@ -835,7 +829,7 @@
       br
       br
       |La composición consiste en jugar con los elementos, rotarlos, cambiarlos de posición, ubicarlos por grupos, por colores, etc.; observe más, a continuación, sobre este importante tema:
-    #carouselExampleIndicators2.carousel.slide(data-bs-ride='carousel2')
+    #carouselExampleIndicators2.carousel.slide(data-bs-ride='carousel2').mb-5
       .carousel-indicators
         button.active(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
         button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='1' aria-label='Slide 2')
@@ -845,7 +839,7 @@
         .carousel-item.active
           div.position-relative
             img(src='@/assets/curso/90.jpg', alt='Texto que describa la imagen')
-            .bg-white.position-absolute.p-3(style='bottom: 10%; left: 85px; max-width: 50%')
+            .tarjeta-c.bg-white.p-3(style='bottom: 10%; left: 85px')
               p Existen algunas reglas que pueden ser de gran ayuda a la hora de emprender cualquier proyecto:
               ul.lista-ul--color
                 li 
@@ -869,12 +863,12 @@
         .carousel-item
           div.position-relative
             img(src='@/assets/curso/91.jpg', alt='Texto que describa la imagen')
-            .bg-white.position-absolute.p-3(style='bottom: 10%; left: 85px; max-width: 50%')
+            .tarjeta-c.bg-white.p-3(style='bottom: 10%; left: 85px')
               p La percepción se define como la capacidad de construir, interpretar y hasta corregir un esquema de información recibido por medio de los órganos sensoriales. Suele estar condicionada a patrones o aprendizajes memorizados con anterioridad. En el caso de la percepción visual, es la capacidad de procesar e interpretar la información recibida por medio del ojo como órgano principal; se hace uso de ciertos principios de la percepción, basados en las leyes de la Gestalt, teoría de la psicología que permite estudiar los modos de cómo se percibe lo que vemos.
         .carousel-item
           div.position-relative
             img(src='@/assets/curso/92.jpg', alt='Texto que describa la imagen')
-            .bg-white.position-absolute.p-3(style='bottom: 10%; left: 85px; max-width: 60%')
+            .tarjeta-c.bg-white.p-3(style='bottom: 10%; left: 85px')
               h5 Diseño bidimensional
               p Un elemento bidimensional es aquel que representa su altura y anchura sin manifestar su profundidad, ya que se realiza en un espacio plano, el cual solo tiene estas 2 dimensiones. <b>Ejemplo de esto, un dibujo de un rectángulo en una hoja de papel</b>. 
                 br
@@ -886,7 +880,7 @@
         .carousel-item
           div.position-relative
             img(src='@/assets/curso/93.jpg', alt='Texto que describa la imagen')
-            .bg-white.position-absolute.p-3(style='bottom: 10%; left: 85px; max-width: 50%')
+            .tarjeta-c.bg-white.p-3(style='bottom: 10%; left: 85px')
               h5 Diseño tridimensional
               p Un elemento tridimensional posee un volumen dado por altura, anchura y profundidad. La percepción de un elemento tridimensional no puede darse a primera vista, tiene que observarse desde diferentes ángulos, posiciones y distancias, para hacer una mejor lectura de este. Así, el diseño tridimensional presenta muchos retos adicionales al bidimensional, precisamente por todas las aristas de observación. El diseñador tiene que ser muy observador e imaginar el elemento en diversas posiciones y tamaños, teniendo gran importancia el volumen y la ubicación dentro de un espacio; para dicho propósito, se deben asimilar sus medidas de manera transversal, vertical y horizontal.
       .slyder-2
@@ -905,7 +899,7 @@
           |Un ejemplo representativo son las televentas, las 24 horas del día vendiendo. Más acorde con estos días, las aplicaciones móviles donde se puede comprar lo que se quiera, 365 días del año, sin cierre. 
       .col-lg-5(data-aos="fade-right")
         .imagen-adornos-flotantes
-          img(src="@/assets/curso/53.jpg" alt="Adornos flotantes")
+          img(src="@/assets/curso/94.jpg" alt="Adornos flotantes")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 10% ; top: ; bottom: 10% ; width: 90px ")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 15% ; right: ; top: ; bottom: 5% ; width: 60px ")
@@ -1118,7 +1112,7 @@ export default {
         imagen: require('@/assets/curso/18.svg'),
       },
       {
-        titulo: 'Neolítico, nueva piedra (12.000 - 5.000 a. C.)',
+        titulo: '',
         texto:
           'El hombre aprende nuevas técnicas de siembra, cultiva arroz, maíz y trigo, lleva a cabo avances en agricultura, recoge frutos, empieza la domesticación de animales destinados a la ganadería, y adapta el medio ambiente a sus necesidades. A pesar de esto, con el crecimiento de la población, se empiezan a magnificar los problemas, se presentan las primeras guerras y se enfrentan muchos problemas de corte social. Continúa elaborando herramientas y elementos en piedra, madera y otros materiales. ',
         imagen: require('@/assets/curso/19.svg'),
@@ -1194,4 +1188,34 @@ export default {
         opacity: 1
 .modal-a__content
   background-color: $color-acento-botones
+.linea-azul
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 5px
+    top: -20%
+    left: 70%
+    height: 25px
+    background-color: $color-acento-botones
+    @media (max-width: 991px)
+      display: none
+.linea-azul2
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 5px
+    top: -20%
+    right: 70%
+    height: 25px
+    background-color: $color-acento-botones
+    @media (max-width: 991px)
+      display: none
+.tarjeta-c
+  position: absolute
+  max-width: 60%
+  @media (max-width: $bp-max-md)
+    max-width: 60% !important
+    position: relative
 </style>

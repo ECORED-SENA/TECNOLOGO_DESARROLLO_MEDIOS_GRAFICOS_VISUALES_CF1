@@ -21,33 +21,35 @@
       br
       br
       |Algunas características que el boceto tiene y con las que debe cumplir para que su labor sea exitosa, incluyen: 
-    figure(data-aos="zoom-in-up")
+    figure().mb-5
       img(src="@/assets/curso/137.svg" )
-    p.mb-5 En cuanto a los tipos, estos pueden ser:
+    br
+    p.my-5 En cuanto a los tipos, estos pueden ser:
+    br
     SlyderD.mb-5(:datos="datosSlyder")
     p.mb-5 Finalmente, existen algunos niveles en el desarrollo de los bocetos para una misma idea, un boceto burdo, el semicompleto y el dummy (Hurtado, 2019).
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.2 Técnicas, la bitácora y recursos gráficos
     p.mb-5 Los principios que rigen la creación de bocetos son los mismos que rigen el dibujo, con la ventaja de que no es indispensable prestar tanta atención al detalle. A continuación, encuentre más información sobre las técnicas:
     .row.mb-5
-      .col-lg-4(data-aos="fade-right")
+      .col-lg-4
         .tarjeta.tarjetas-text2
           img(src="@/assets/curso/143.jpg" alt="Adornos flotantes" style="width: 100% ").mb-3
-          .tarjetas-text2__contenido.px-5.pb-5.pt-3.text-center
-            h3 Líneas y trazos: 
+          .tarjetas-text2__contenido.px-5.pb-5.pt-3.text-center.mb-3
+            h3 Líneas y trazos 
             p Pueden ser rectas o curvas, continuas o discontinuas, y de diferente calibre o grosor, según la herramienta empleada o la presión ejercida.
 
-      .col-lg-4(data-aos="fade-right")
+      .col-lg-4
         .tarjeta.tarjetas-text2
           img(src="@/assets/curso/144.jpg" alt="Adornos flotantes" style="width: 100% ").mb-3
-          .tarjetas-text2__contenido.px-5.pb-5.pt-3.text-center
-            h3 Construcción espacial: 
+          .tarjetas-text2__contenido.px-5.pb-xl-5.pt-3.text-center
+            h3 Construcción espacial 
             p El uso de líneas horizontales, verticales y diagonales da lugar a la construcción de formas, y la relación de dichas formas da como resultado la generación de relaciones espaciales.
-      .col-lg-4(data-aos="fade-right")
+      .col-lg-4
         .tarjeta.tarjetas-text2
           img(src="@/assets/curso/145.jpg" alt="Adornos flotantes" style="width: 100% ").mb-3
-          .tarjetas-text2__contenido.px-5.pb-5.pt-3.text-center
-            h3 Planos, luz y contorno: 
+          .tarjetas-text2__contenido.px-5.pb-xl-5.pt-3.text-center
+            h3 Planos, luz y contorno 
             p La bocetación permite, mediante el uso de sombras, simular el efecto de la luz sobre las superficies de las formas dibujadas. La práctica permite influir en la percepción y transmitir la sensación de contorno volumétrico.
     .row.mb-5
       .col-sm-6.col-xl-6.mb-4.mb-xl-0
@@ -66,7 +68,7 @@
             .tarjeta-slide__contenido.p-4.p-xl-5
               h4 Recursos gráficos:
               p Lo mejor de la bocetación es que es un recurso creativo de bajo costo. Cualquier superficie es válida para rayar, si bien es más recomendable una libreta o cuaderno que permita la conservación y protección del material. Es más importante y valiosa la capacidad de observación, un entorno tranquilo y consumir material gráfico. La creatividad necesita nutrirse para poder crecer y sobresalir.
-    figure(data-aos="zoom-in-up")
+    figure
       img(src="@/assets/curso/147.png")
 
 
@@ -100,7 +102,7 @@ export default {
         imagen: require('@/assets/curso/138.jpg'),
       },
       {
-        titulo: 'Boceto-mini:',
+        titulo: 'Boceto mini:',
         texto:
           'Anteriormente, se ha dicho que un boceto debe estar a escala; sin embargo, este tipo de boceto se hace más pequeño, para disminuir los detalles.',
         imagen: require('@/assets/curso/139.jpg'),

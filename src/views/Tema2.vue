@@ -34,9 +34,9 @@
             .col-lg-8
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-small.mb-0 <b>¿Quiere conocer más acerca del uso de la teoría del color?</b> Si su respuesta es positiva, atienda la siguiente recomendación: explore el video <b>Uso de la teoría del color</b>, que explica algunos conceptos sobre la teoría del color y su uso, y lo encuentra disponible en el material complementario.
+                  p.text-small.mb-0 <b>¿Quiere conocer más acerca del uso de la teoría del color?</b> Si su respuesta es positiva, atienda la siguiente recomendación: explore el video <b>Teoría del color</b>, que explica algunos conceptos sobre la teoría del color y su uso, y lo encuentra disponible en el material complementario.
                 .col-sm-auto
-                  a.boton.color-acento-contenido(href='https://www.youtube.com/watch?v=cGglJKvpCEs' target='_blank')
+                  a.boton.color-acento-contenido.tb(href='https://www.youtube.com/watch?v=cGglJKvpCEs' target='_blank')
                     span Enlace
                     i.fas.fa-link
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -46,15 +46,15 @@
         p El concepto de color, como se conoce hoy en día, se empieza a gestar con diversos experimentos que llevó a cabo <b>Isaac Newton (1642-1726)</b> para entender y comprender los fenómenos relativos a la luz y el color, es el primer científico en entender el arco iris. <b>Para ello, crea un hoyo en la pared de un cuarto oscuro; seguidamente, refracta la luz blanca con un prisma en la pared, que resalta la proyección de sus colores componentes al fondo del cuarto: magenta, rojo, naranja, amarillo, verde, azul y violeta</b>; además, para probar que el prisma no estaba coloreando la luz, volvió a unir la luz, realizando el experimento a la inversa. Son tan importantes los experimentos que realizó Newton que se dice que fue quien dio paso a la ciencia moderna; <b>sus estudios, experimentos y descubrimientos cambiaron y revolucionaron la vida</b> hasta el mundo actual. 
       .col-lg-4(data-aos="fade-left")
         img(src="@/assets/curso/110.jpg" alt="Adornos flotantes")
-    .bg--2-claro.p-4
-      .row.mb-5
-        .col-lg-5.mt-lg-0.mt-3(data-aos="fade-left")
+    .bg--2-claro.p-4.mb-5
+      .row.align-items-center.justify-content-center.mb-5
+        .col-lg-4.mt-lg-0.mt-3(data-aos="fade-left")
           .imagen-adornos-flotantes
-            img(src="@/assets/curso/1.jpg" alt="Adornos flotantes")
+            img(src="@/assets/curso/148.jpg" alt="Adornos flotantes" style="width: 315px; margin: 0 auto")
             .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 10% ; top: ; bottom: 10% ; width: 90px ")
             .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
             .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 15% ; right: ; top: ; bottom: 5% ; width: 60px ")
-        .col-lg-7(data-aos="fade-right")
+        .col-lg-8(data-aos="fade-right")
           p.mb-3 La percepción que se tiene del color depende de una fuente lumínica que se refleja en el objeto; dentro de la retina, el ojo cuenta con una cantidad ilimitada de células especializadas en identificar diferentes tipos longitud de onda, que son transformadas en impulsos eléctricos, los cuales asignan un color a cada longitud en particular; <b>por esta razón, en ausencia de luz, el ojo humano no tiene la capacidad de generar ningún tipo de color.</b> El ojo es un órgano complejo, formado por un conjunto de órganos que reciben la luz del medio ambiente (fotorreceptores) y que, al trabajar unificadamente, permiten reconocer la reflexión de la luz sobre los objetos. Los objetos atraen ciertos  tipos de ondas y reflejan otros en contraposición, esto depende de muchos factores, como la distancia de la fuente lumínica, el tamaño del objeto, hasta su composición.
     p.mb-5 El color tiene diversas características, entre las que se encuentran las siguientes:
     BotonesD.mb-5
@@ -69,10 +69,11 @@
             th Modo CMYK
         tbody
           tr
-            td
-              figure 
-                img(src="@/assets/curso/121.jpg" style="width: 800px; height: 300px").mb-3
-              .px-4.mb-5 Se denominan colores luz. Dentro de la teoría aditiva, la combinación de los colores primarios rojo (red), verde (green) y azul (blue) da como resultado la luz blanca. Esto resulta fácilmente demostrable con un cuarto oscuro, tres linternas y filtros de colores. Sobre una pared blanca, las linternas iluminan separadamente según el color del filtro, pero al enfocar un punto común, el color resultante tiende a ser blanco.
+            td.p-0
+              .imagenes(style="width: 614px; height: 316px ").mb-3
+                figure 
+                  img(src="@/assets/curso/121.jpg" style="width: 100%").mb-3
+              .px-4.mb-5 Se denominan colores luz. Dentro de la teoría aditiva, la combinación de los colores primarios rojo (<i>red</i>), verde (<i>green</i>) y azul (<i>blue</i>) da como resultado la luz blanca. Esto resulta fácilmente demostrable con un cuarto oscuro, tres linternas y filtros de colores. Sobre una pared blanca, las linternas iluminan separadamente según el color del filtro, pero al enfocar un punto común, el color resultante tiende a ser blanco.
                 br
                 br
                 |La aplicación por excelencia del modo RGB es en las publicaciones digitales, multimedia y sitios web.
@@ -82,16 +83,17 @@
               .d-flex.align-items-end
                 img(src="@/assets/curso/123.svg" style="width: 163px")
                 p <b>RGB:</b> sigla en inglés de Red, Green, Blue, en español rojo, verde y azul. 
-            td
-              figure
-                img(src="@/assets/curso/122.jpg" style="width: 600px").mb-3
+            td.p-0
+              .imagenes(style="width: 614px; height: 316px ").mb-3
+                figure
+                  img(src="@/assets/curso/122.jpg" style=" ").mb-3
               .px-4.mb-5 El modelo de cuatricromía o de colores pigmento. Un ejemplo evocativo puede remitir al juego con plastilina. Al mezclar masas de todos los colores se obtenía algo poco atractivo que variaba del café al púrpura. En el modo CMYK, los pigmentos cian, magenta, amarillo y negro se unen para conformar otros colores y la combinación de los tres primeros tiene como resultado un negro de baja pureza.
                 br
                 br
                 |Dos datos curiosos sobre el modo CMYK: el color magenta no existe como tal, se crea al mezclar las frecuencias de onda de ambos extremos del espectro visible; si se mezclan las parejas de color, se obtienen los valores tonales del) modelo aditivo. 
               .d-flex.align-items-end
                 img(src="@/assets/curso/124.svg" style="width: 163px")
-                p <b>CMYK:</b> siglas de Cyan, Magenta, Yellow Y Key, español cián, magenta, amarillo y negro.
+                p <b>CMYK:</b> sigla en inglés de <i>Cyan</i>, <i>Magenta</i>, <i>Yellow</i> y <i>Key</i>, en español cián, magenta, amarillo y negro.
     .tarjeta.bg--2-claro.p-4.mb-5.rounded-0.mt-5
           .row.justify-content-center.align-items-center.position-relative
             img.position-absolute.d-none.d-lg-block(src="@/assets/curso/125.svg" alt="Adornos flotantes" style="width: 150px ; left: 5% ; top: -90% ")
@@ -99,10 +101,10 @@
             .col-lg-8
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-small.mb-0 Continuando con este aprendizaje, tenga en cuenta explorar el video <b>Teoría aditiva y sustractiva</b>, que explica con mayor profundidad ambas teorías, se encuentra disponible en el material complementario.
+                  p.text-small.mb-0 Continuando con este aprendizaje, tenga en cuenta explorar el video <b>Teoría de Color: aditivo, sustractivo y la ley de los complementarios</b>, que explica con mayor profundidad ambas teorías, se encuentra disponible en el material complementario.
                 .col-sm-auto
 
-                  a.boton.color-acento-contenido(href='https://www.youtube.com/watch?v=UwTicavr21s' target='_blank')
+                  a.boton.color-acento-contenido.tb(href='https://www.youtube.com/watch?v=UwTicavr21s' target='_blank')
                     span Enlace
                     i.fas.fa-link
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -118,12 +120,7 @@
     .row.mb-5.justify-content-center.align-items-top
       .col-lg-4
         .animacion-imagenes
-          //- img(src="@/assets/curso/127.svg")
-          //- img(src="@/assets/curso/128.svg")
-          //- img(src="@/assets/curso/129.svg")
-          //- img(src="@/assets/curso/130.svg")
-          //- img(src="@/assets/curso/131.svg")
-          //- img(src="@/assets/curso/132.svg")
+          
       .col-lg-8.mt-lg-5
         p.mb-3 Goethe evocó varios principios en teoría del color, sin embargo, uno de sus mayores aportes fue el de plantear que el color es capaz de influir en las emociones y sensaciones que percibe el individuo, lo que se conoce hoy en día como psicología del color. Dividió los colores en grupos, donde el rojo, el naranja y el amarillo eran colores “positivos”, que aumentaban la energía y la vitalidad, mientras colores como el azul, el violeta y el verde eran colores “negativos”, que estimulaban la ansiedad e inquietud.
         .bg--4-claro.p-4
@@ -135,9 +132,9 @@
             .col-lg-8
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-small.mb-0 Conozca más acerca de lo que transmiten o comunican los colores explorando el video <b>La psicología del color</b>, disponible en el material complementario.
+                  p.text-small.mb-0 Conozca más acerca de lo que transmiten o comunican los colores explorando el video <b>Psicología del color ¿Qué transmiten los colores? </b>, disponible en el material complementario.
                 .col-sm-auto
-                  a.boton.color-acento-contenido(href='https://www.youtube.com/watch?v=X8kbrAzV6BM' target='_blank')
+                  a.boton.color-acento-contenido.tb(href='https://www.youtube.com/watch?v=X8kbrAzV6BM' target='_blank')
                     span Enlace
                     i.fas.fa-link
     .tarjeta.bg-gray.p-4.p-md-5.mb-5
@@ -233,16 +230,16 @@ export default {
   td
     vertical-align: top
 .animacion-imagenes
-  width: 100%
-  height: 400px
-  background-size: cover
-  background-position: center
-  background-repeat: no-repeat
-  transition: background-image 1s ease-in-out
-  animation-name: fader
-  animation-timing-function: linear
-  animation-iteration-count: infinite
-  animation-duration: 15s
+    width: 100%
+    height: 400px
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    transition: background-image 1s ease-in-out
+    animation-name: fader
+    animation-timing-function: linear
+    animation-iteration-count: infinite
+    animation-duration: 15s
 @keyframes fader
   0%
     background-image: url(../assets/curso/127.svg)
