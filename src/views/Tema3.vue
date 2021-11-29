@@ -69,7 +69,7 @@
               h4 Recursos gráficos:
               p Lo mejor de la bocetación es que es un recurso creativo de bajo costo. Cualquier superficie es válida para rayar, si bien es más recomendable una libreta o cuaderno que permita la conservación y protección del material. Es más importante y valiosa la capacidad de observación, un entorno tranquilo y consumir material gráfico. La creatividad necesita nutrirse para poder crecer y sobresalir.
     figure
-      img(src="@/assets/curso/147.png")
+      img(src="@/assets/curso/147.svg")
 
 
 

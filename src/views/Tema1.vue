@@ -194,7 +194,7 @@
               h4.text-center El arte bizantino
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/22.jpg')})`}")    
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.abajo.color-secundario.rounded-0( style=' height: 275px')
+        .tarjeta.tarjeta-slide.arriba.color-secundario.rounded-0( style=' height: 275px')
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5.m-auto
               img(src="@/assets/curso/27.svg" style="width: 130px").m-auto.mb-3
@@ -632,9 +632,9 @@
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false" style="height: 427px ")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
+            .tarjeta-slide__contenido.py-4.p-xl-5.px-2
               img(src="@/assets/curso/59.svg" alt="Adornos flotantes" style="width: 70px ").m-auto.mb-3
-              .text-center
+              .text-center.text-small
                 h3 Tamaño
                 p  Hace referencia a la dimensión adecuada con la cual trabajar una imagen de acuerdo con los criterios requeridos, para conseguir los mejores resultados.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/55.jpg')})`}")
@@ -642,9 +642,9 @@
         .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false" style="height: 427px ")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
+            .tarjeta-slide__contenido.py-4.p-xl-5.px-2
               img(src="@/assets/curso/60.svg" alt="Adornos flotantes" style="width: 70px ").m-auto.mb-3
-              .text-center
+              .text-center.text-small
                 h3 Forma
                 p  Todo aquello que nos rodea tiene una forma, se podría definir como el aspecto exterior de las cosas, que presentan un contorno, textura, tamaño y color. 
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/56.jpg')})`}")
@@ -652,9 +652,9 @@
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false" style="height: 427px ")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
+            .tarjeta-slide__contenido.py-4.p-xl-5.px-2
               img(src="@/assets/curso/61.svg" alt="Adornos flotantes" style="width: 70px ").m-auto.mb-3
-              .text-center
+              .text-center.text-small
                 h3 Color
                 p  El lenguaje visual tiene como gran recurso la utilización del color, el cual puede aportar mucha fuerza, carácter e información que enriquece la imagen. Mediante el color, se pueden afianzar los conceptos frío, calor, primavera, invierno, entre otros. De igual manera, ofrece una gama ilimitada de posibilidades en su tratamiento. 
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/57.jpg')})`}")
@@ -662,9 +662,9 @@
         .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false" style="height: 427px ")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
+            .tarjeta-slide__contenido.py-4.p-xl-5.px-2
               img(src="@/assets/curso/62.svg" alt="Adornos flotantes" style="width: 70px ").m-auto.mb-3
-              .text-center
+              .text-center.text-small
                 h3 Textura
                 p  Toda figura tiene una superficie, esta puede tener diferentes características, unas suaves, otras ásperas, arrugadas, lisas o abultadas. Existen la textura visual y la textura táctil.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/58.jpg')})`}")
