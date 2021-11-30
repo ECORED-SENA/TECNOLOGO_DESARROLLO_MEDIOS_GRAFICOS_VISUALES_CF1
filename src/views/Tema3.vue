@@ -62,7 +62,7 @@
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/146.jpg')})`}")
 
       .col-sm-6.col-xl-6.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.abajo.color-primario(style='height: 456px ')
+        .tarjeta.tarjeta-slide.arriba.color-primario(style='height: 456px ')
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/147.jpg')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5

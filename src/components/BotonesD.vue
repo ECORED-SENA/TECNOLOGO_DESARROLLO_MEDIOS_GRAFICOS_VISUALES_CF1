@@ -121,7 +121,7 @@ export default {
       top: -10px
       left: 3%
       width: 91px
-    @media (max-width: 768px)
+    @media (max-width: $bp-max-lg)
       width: 300% !important
 
 @media (max-width: $bp-max-md)

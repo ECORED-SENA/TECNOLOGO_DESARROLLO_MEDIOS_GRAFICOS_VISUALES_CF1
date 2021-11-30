@@ -479,7 +479,8 @@
       .row(titulo="Bauhaus").p-3
         .col-md-8.mb-4.mb-md-0
           p <b>Casa de la construcción estatal, 1919, Alemania.</b>
-
+            br
+            br
             |Fundada en 1919 por Walter Gropius, en Weimar, Alemania. La primera fase (1919-1923) fue idealista y romántica; la segunda (1923-1925), mucho más racionalista; y en la tercera (1925-1929), alcanzó su mayor reconocimiento, coincidiendo con su traslado de la ciudad de Weimar a Dessau (Díez y Parra, 2015).
             br
             br
@@ -511,7 +512,7 @@
               |  Las formas geométricas y abstractas se utilizan para simplificar los elementos.
         .col-md-4
           figure
-            img(src='@/assets/curso/50.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/50.png', alt='Texto que describa la imagen')
       .row(titulo="Art Déco").p-3
         .col-md-8.mb-4.mb-md-0
           p <b>Europa 1920 – 1939</b>
@@ -715,7 +716,7 @@
               button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
                 span.carousel-control-next-icon(aria-hidden='true')
                 span.visually-hidden Next
-    h5(data-aos="fade-right") Gramática del lenguaje visual
+    h3(data-aos="fade-right") Gramática del lenguaje visual
     p.mb-5 Así como el lenguaje escrito necesita de un abecedario, signos y símbolos para poder llegar a manifestar de forma asertiva un mensaje, el lenguaje visual también necesita de ciertos recursos gráficos para comunicar de manera correcta aquello que desea expresar, ordenando para ello los elementos que hacen parte de la comunicación gráfica, desde el punto y la línea. No obstante, no se puede negar que el proceso visual es una síntesis de conocimientos perceptivos que acompañan al individuo, por lo que su lectura, respecto a la imagen, es individual. <b>En resumen, la gramática visual ordena los elementos que hacen parte de sí misma, los procesos que lleva a cabo y las relaciones que se producen.</b>
     .tarjeta.bg--2-claro.p-4.mb-5.rounded-0.mt-5
           .row.justify-content-around.align-items-center.position-relative
@@ -890,7 +891,7 @@
         button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide='next')
           span.carousel-control-next-icon(aria-hidden='true')
           span.visually-hidden Next
-    h3(data-aos="fade-right") Lenguaje publicitario: características.
+    h3(data-aos="fade-right") Lenguaje publicitario: características
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-7(data-aos="fade-left")
         p La publicidad es un fenómeno de la Era Industrial. El mundo ha cambiado a pasos agigantados, especialmente, en los últimos siglos. Después de la Primera y Segunda Revolución Industrial, crecen la oferta y la demanda de miles de productos, en la llamada <b>“sociedad de consumo”; la función principal de la publicidad es fomentar técnicas de consumo pertinentes y asertivas</b>, llegar a todas partes, a través de los diferentes medios de comunicación (radio, prensa, cine, televisión), medios de sentido unidireccional, que van directamente al emisor. 

@@ -76,13 +76,13 @@
               .px-4.mb-5 Se denominan colores luz. Dentro de la teoría aditiva, la combinación de los colores primarios rojo (<i>red</i>), verde (<i>green</i>) y azul (<i>blue</i>) da como resultado la luz blanca. Esto resulta fácilmente demostrable con un cuarto oscuro, tres linternas y filtros de colores. Sobre una pared blanca, las linternas iluminan separadamente según el color del filtro, pero al enfocar un punto común, el color resultante tiende a ser blanco.
                 br
                 br
-                |La aplicación por excelencia del modo RGB es en las publicaciones digitales, multimedia y sitios web.
+                |La aplicación por excelencia del modo RGB es en las publicaciones digitales, multimedia y sitios <i>web</i>.
                 br
                 br
                 |Un dato curioso: al mezclar las luces en parejas, se obtienen los valores: amarillo, cian y magenta, propios del modo CMYK (el negro es la ausencia de luz). 
               .d-flex.align-items-end
                 img(src="@/assets/curso/123.svg" style="width: 163px")
-                p <b>RGB:</b> sigla en inglés de Red, Green, Blue, en español rojo, verde y azul. 
+                p <b>RGB:</b> sigla en inglés de <i>Red</i>, <i>Green</i>, <i>Blue</i>, en español rojo, verde y azul. 
             td.p-0
               .imagenes(style="width: 614px; height: 316px ").mb-3
                 figure
@@ -132,7 +132,7 @@
             .col-lg-8
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-small.mb-0 Conozca más acerca de lo que transmiten o comunican los colores explorando el video <b>Psicología del color ¿Qué transmiten los colores? </b>, disponible en el material complementario.
+                  p.text-small.mb-0 Conozca más acerca de lo que transmiten o comunican los colores explorando el video <b>Psicología del color ¿Qué transmiten los colores?</b>, disponible en el material complementario.
                 .col-sm-auto
                   a.boton.color-acento-contenido.tb(href='https://www.youtube.com/watch?v=X8kbrAzV6BM' target='_blank')
                     span Enlace
@@ -154,7 +154,6 @@
     figure.mb-5
       img(src='@/assets/curso/135.svg')
     p.px-5 Está dividida por secciones, para evidenciar los aspectos del color y sus combinaciones que explican, de manera visual, el efecto que tienen los colores en todos los aspectos de la vida de las personas. Cada variación tonal refleja aspectos y cualidades que fueron identificados en los colores y las combinaciones, las cuales se usan para describir sus propiedades, cómo combinarlos y contrastarlos. Al armonizar, es posible que el conjunto o combinación armónica se asocie más a un concepto antiguo que a la belleza dinámica y moderna; para ello es útil el uso del círculo cromático (Whelan, 1994). 
-
 
 
 
