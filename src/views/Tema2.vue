@@ -18,6 +18,9 @@
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 10% ; top: ; bottom: 10% ; width: 90px ")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 15% ; right: ; top: ; bottom: 5% ; width: 60px ")
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/rlGfZoeO3Dg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .img-bg(data-aos="zoom-in-up").mb-5
       .bg-black.opacity-1.p-5.d-flex.justify-content-center
         h3.text-white.col-7.text-center La teoría del color también dicta algunos parámetros referentes, que explican por qué ciertos matices, sombras y tonos se llevan mejor y transmiten armonía, logrando resaltar un logotipo o un gráfico que acompaña un texto.
@@ -109,6 +112,9 @@
                     i.fas.fa-link
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.3 Psicología y armonías de color
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/UWSe5bCGNhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mb-5.justify-content-center
       .col-lg-10
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5

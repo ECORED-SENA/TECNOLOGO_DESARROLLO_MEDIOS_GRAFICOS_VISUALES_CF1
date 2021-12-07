@@ -9,9 +9,22 @@
       h1 Definición e historia del diseño gráfico
     p.mb-5 El diseño gráfico puede definirse como una disciplina que interactúa, por lo general, con muchas otras disciplinas en diversos ámbitos y que busca la solución a problemas de comunicación visual, para dar a conocer, exponer y publicitar diversos productos, bienes y servicios, por medio de diferentes piezas gráficas que pretenden transmitir un mensaje específico.
     p.mb-5 A continuación, observe el video "Historia del diseño" para una mejor contextualización sobre la historia de diseño gráfico. 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    //todo PENDIENTE VIDEO POR VINCULAR 
+    .tarjeta.bg--4-claro2.p-4.p-md-5.mb-5
+      .row.justify-content-around.align-items-center
+        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+          img(src="@/assets/curso/00.svg")
+
+        .col-md.col-lg-6
+          .titulo-segundo.color-acento-contenido
+            h2 Historia del diseño
+          p.mb-4 A continuación, observe el video “Historia del diseño” para una mejor contextualización sobre la historia del diseño gráfico.
+          
+          a.boton.color-acento-botones(href='https://www.youtube.com/embed/2L91WMqw96A' target="_blank" type="application/pdf")
+            span Enlace
+            i.fas.fa-link
+    //todo PENDIENTE VIDEO POR VINCULAR 
     .row.mb-5
       .col-lg-7(data-aos="fade-right")
         p.mb-3 Es así como se produjeron numerosos inventos que transformaron la sociedad y, junto con otros avances técnicos, potenciaron la prensa como fenómeno de masas y clases sociales. Se crearon espacios de ocio, como clubes, teatros y salones de reunión, donde se necesitaron piezas gráficas y publicidad. La invención de estos medios de comunicación, sumada a inventos como el de Joseph Niepce, quien, en 1826, fijó una imagen en una cámara oscura, invento que posteriormente Louis Daguerre perfeccionó en los llamados daguerrotipos (primer procedimiento fotográfico), fueron el inicio de una época que revolucionaría a la humanidad.
@@ -162,7 +175,6 @@
     .row.mb-5
       .col-lg-7(data-aos="fade-right")
         p Esta parte de la historia se caracteriza por varios avances que, al igual que en el periodo neolítico, son fundamentales en el desarrollo y trascender de la humanidad. Si bien es cierto que el hombre desde el paleolítico ya dejaba su huella en las cuevas de Altamira, la escritura no se había desarrollado hasta ese momento. El desarrollo de los pueblos y la necesidad de comunicarse hacen que se manifiesten otras formas de comunicación diferentes a la expresión oral. 
-        //todo! EL VIDEO DEBE DESARROLLARSE DESDE PRODUCCIÓN
         .tarjeta.color-acento-botones.p-4.mb-5.rounded-0.mt-5
           .row.justify-content-around.align-items-center.position-relative
             img.position-absolute.d-none.d-lg-block(src="@/assets/curso/21.svg" alt="Adornos flotantes" style="width: 75px ; left: 3% ; top: -80% ")
@@ -172,9 +184,9 @@
                 .col.mb-3.mb-sm-0
                   p.text-small.text-white.mb-0 A través del siguiente video, podrá revisar todo lo que compone esta parte de la historia para el diseño gráfico:
                 .col-sm-auto
-                  a.boton.color-acento-contenido.tb(:href="obtenerLink('/downloads/fundamentos.pdf')" target="_blank")
+                  a.boton.color-acento-contenido.tb(href="https://www.youtube.com/watch?v=YYBR2atwo0o" target="_blank")
                     span Descargar
-                    i.fas.fa-file-download.tb
+                    i.fas.fa-file-link.tb
       .col-lg-5(data-aos="fade-left")
         .imagen-adornos-flotantes
           img(src="@/assets/curso/20.jpg" alt="Adornos flotantes")
@@ -892,6 +904,9 @@
           span.carousel-control-next-icon(aria-hidden='true')
           span.visually-hidden Next
     h3(data-aos="fade-right") Lenguaje publicitario: características
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/7fQpAnZpEbk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-7(data-aos="fade-left")
         p La publicidad es un fenómeno de la Era Industrial. El mundo ha cambiado a pasos agigantados, especialmente, en los últimos siglos. Después de la Primera y Segunda Revolución Industrial, crecen la oferta y la demanda de miles de productos, en la llamada <b>“sociedad de consumo”; la función principal de la publicidad es fomentar técnicas de consumo pertinentes y asertivas</b>, llegar a todas partes, a través de los diferentes medios de comunicación (radio, prensa, cine, televisión), medios de sentido unidireccional, que van directamente al emisor. 
