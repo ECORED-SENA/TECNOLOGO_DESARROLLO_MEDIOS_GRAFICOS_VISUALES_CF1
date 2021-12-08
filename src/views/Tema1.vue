@@ -21,7 +21,7 @@
             h2 Historia del diseño
           p.mb-4 A continuación, observe el video “Historia del diseño” para una mejor contextualización sobre la historia del diseño gráfico.
           
-          a.boton.color-acento-botones(href='https://www.youtube.com/embed/2L91WMqw96A' target="_blank" type="application/pdf")
+          a.boton.color-acento-botones(href='https://www.youtube.com/watch?v=rwpUniam1SM' target="_blank" type="application/pdf")
             span Enlace
             i.fas.fa-link
     //todo PENDIENTE VIDEO POR VINCULAR 
