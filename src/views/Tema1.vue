@@ -333,13 +333,6 @@
     .texto-adorno.bg--2.px-4.py-2.mb-5(data-aos="fade-right")
       h4.mb-0.me-3 Edad Contemporánea
     p.mb-5 Los avances tecnológicos que se aportaron en este época fueron de mucha trascendencia para la industria gráfica; los diferentes movimientos artísticos junto a sus representantes generaron la ruptura con la pintura tradicional, por lo que es importante que revise el siguiente video, pues le permitirá profundizar sobre el diseño gráfico que se marcó en esta época.
-    .row.mb-5.justify-content-end.bg--2-claro.p-4.position-relative
-      img.d-xl-block.d-none(src="@/assets/curso/41.svg" alt="Adornos flotantes" style="width: 130px; position: absolute; top: -30%; left: 5%;")
-      .col-xl-10
-        p.mb-0 A continuación, observe el video <b>Historia del diseño siglo XX</b> para mejor contextualización sobre esta historia en la edad contemporánea.
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-5(data-aos="fade-right")
         .imagen-adornos-flotantes
