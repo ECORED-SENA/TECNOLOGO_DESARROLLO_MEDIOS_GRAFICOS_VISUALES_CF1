@@ -116,7 +116,7 @@ export default {
       {
         titulo: 'Boceto de contorno: ',
         texto:
-          'El nombre lo explica: sólo se dibujan los contornos, con mínimos detalles; es ideal para la construcción de escenas grandes.',
+          'El nombre lo explica: solo se dibujan los contornos, con mínimos detalles; es ideal para la construcción de escenas grandes.',
         imagen: require('@/assets/curso/141.jpg'),
       },
       {

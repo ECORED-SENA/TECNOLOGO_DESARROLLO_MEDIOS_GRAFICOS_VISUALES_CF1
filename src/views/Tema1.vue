@@ -21,7 +21,7 @@
             h2 Historia del diseño
           p.mb-4 A continuación, observe el video “Historia del diseño” para una mejor contextualización sobre la historia del diseño gráfico.
           
-          a.boton.color-acento-botones(href='https://www.youtube.com/watch?v=rwpUniam1SM' target="_blank" type="application/pdf")
+          a.boton.color-acento-botones(href='https://youtu.be/MZaLzNdNcOk' target="_blank" type="application/pdf")
             span Enlace
             i.fas.fa-link
     //todo PENDIENTE VIDEO POR VINCULAR 
@@ -119,7 +119,7 @@
               .row.justify-content-center.mb-3
                 .col-8
                   img(src='@/assets/curso/11.svg' alt='AvatarTop' style='width: 190px').m-auto
-              p.text-center Hay un público objetivo a quién va dirigido el mensaje, por eso se estudia muy bien al receptor.
+              p.text-center Hay un público objetivo a quien va dirigido el mensaje, por eso se estudia muy bien al receptor.
             .tarjeta.bg-white.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-8
@@ -185,7 +185,7 @@
                   p.text-small.text-white.mb-0 A través del siguiente video, podrá revisar todo lo que compone esta parte de la historia para el diseño gráfico:
                 .col-sm-auto
                   a.boton.color-acento-contenido.tb(href="https://www.youtube.com/watch?v=YYBR2atwo0o" target="_blank")
-                    span Descargar
+                    span Enlace
                     i.fas.fa-file-link.tb
       .col-lg-5(data-aos="fade-left")
         .imagen-adornos-flotantes
@@ -438,7 +438,7 @@
             br
             | El Constructivismo nace en Rusia, en 1914. En el año 1917, Malevich empleó el término 
             br
-            |<b><i>construction</i></b> art (en español, arte para construcción), haciendo referencia al trabajo de Ródchenko, 
+            |<b><em>construction art</em></b> (en español, arte para construcción), haciendo referencia al trabajo de Ródchenko, 
             br
             |bajo una connotación negativa.
             br
@@ -602,7 +602,7 @@
               | Utilización de colores primarios y neutros. 
         .col-md-4
           figure
-            img(src='@/assets/curso/48.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/podemos.png', alt='Texto que describa la imagen')
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.4 Diseño básico
     .row.mb-5.justify-content-center.align-items-center
